@@ -1,0 +1,5435 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArmorBonuses>
+  <!--ALBION-->
+  <!-- TISSU-->
+  <!-- Têtes-->
+  <ArmorBonus>
+    <Code>DACUCLOA1</Code>
+    <Full>Sigil Stiched Helm</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Jester Hat</Skin>
+      <Skin>Steeple Hat</Skin>
+      <Skin>Tarboosh</Skin>
+      <Skin>Crown</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEACLOA1</Code>
+    <Full>Sigil Sewn Helm</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Jester Hat</Skin>
+      <Skin>Steeple Hat</Skin>
+      <Skin>Tarboosh</Skin>
+      <Skin>Crown</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUICLOA1</Code>
+    <Full>Sigil Scorched Helm</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Jester Hat</Skin>
+      <Skin>Steeple Hat</Skin>
+      <Skin>Tarboosh</Skin>
+      <Skin>Crown</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACUCLOA1</Code>
+    <Full>Dragonsworn Stiched Helm</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUICLOA1</Code>
+    <Full>Dragonsworn Scorched Helm</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFCLOA1</Code>
+    <Full>Dragonsworn Sewn Helm</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--TORSES-->
+  <ArmorBonus>
+    <Code>MAGCLOA1</Code>
+    <Full>Sigil Stiched Chest</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MAGIC</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MELCLOA1</Code>
+    <Full>Sigil Sewn Chest</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MADMGCLOA1</Code>
+    <Full>Dragonsworn Stiched Chest</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MADMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGCLOA1</Code>
+    <Full>Dragonsworn Sewn Chest</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Bras -->
+  <ArmorBonus>
+    <Code>DHPCLOA1</Code>
+    <Full>Sigil Stiched Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DCONCLOA1</Code>
+    <Full>Sigil Sewn Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFCLOA2</Code>
+    <Full>Sigil Worn Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPCLOA1</Code>
+    <Full>Dragonsworn Stiched Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONCLOA1</Code>
+    <Full>Dragonsworn Sewn Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEACLOA2</Code>
+    <Full>Dragonsworn Worn Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Mains-->
+  <ArmorBonus>
+    <Code>AFCLOA1</Code>
+    <Full>Sigil Stiched Gloves</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DURCLOA1</Code>
+    <Full>Dragonsworn Stiched Gloves</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>DUR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>POWCLOA1</Code>
+    <Full>Sigil Stiched Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>POW</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRCLOA1</Code>
+    <Full>Sigil Sewn Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DPOWCLOA1</Code>
+    <Full>Dragonsworn Stiched Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>MAN</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRCLOA1</Code>
+    <Full>Dragonsworn Sewn Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>DDEXCLOA1</Code>
+    <Full>Sigil Stiched Feet</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXCLOA1</Code>
+    <Full>Dragonsworn Stiched Feet</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!-- Cuir Alb -->
+  <!-- Têtes -->
+  <ArmorBonus>
+    <Code>DCONLEAA1</Code>
+    <Full>Sigil Etched Helm</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Jester Hat</Skin>
+      <Skin>Tarboosh</Skin>
+      <Skin>Crown</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DACULEAA1</Code>
+    <Full>Sigil Bound Helm</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Jester Hat</Skin>
+      <Skin>Tarboosh</Skin>
+      <Skin>Crown</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONLEAA1</Code>
+    <Full>Dragonsworn Etched Helm</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACULEAA1</Code>
+    <Full>Dragonsworn Bound Helm</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!-- Torses -->
+  <ArmorBonus>
+    <Code>MELLEAA1</Code>
+    <Full>Sigil Etched Chest</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MAGLEAA1</Code>
+    <Full>Sigil Bound Chest</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MAGIC</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGLEAA1</Code>
+    <Full>Dragonsworn Etched Chest</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEALEAA1</Code>
+    <Full>Dragonsworn Bound Chest</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!-- Bras -->
+  <ArmorBonus>
+    <Code>DHPLEAA1</Code>
+    <Full>Sigil Etched Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEALEAA2</Code>
+    <Full>Sigil Bound Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPLEAA1</Code>
+    <Full>Dragonsworn Etched Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFLEAA1</Code>
+    <Full>Dragonsworn Bound Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!-- Mains -->
+  <ArmorBonus>
+    <Code>DDEXLEAA1</Code>
+    <Full>Sigil Etched Gloves</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXLEAA1</Code>
+    <Full>Dragonsworn Etched Gloves</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>DSTRLEAA1</Code>
+    <Full>Sigil Etched Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRLEAA1</Code>
+    <Full>Dragonsworn Etched Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>POWLEAA1</Code>
+    <Full>Sigil Bound Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>POW</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DPOWLEAA1</Code>
+    <Full>Dragonsworn Bound Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>MAN</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>AFLEAA1</Code>
+    <Full>Sigil Bound Feet</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DUALEAA1</Code>
+    <Full>Sigil Eteched Feet</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>DUAL</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFLEAA2</Code>
+    <Full>Sigil Wrapped Feet</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>FATLEAA1</Code>
+    <Full>Dragonsworn Etched Feet</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DFATLEAA1</Code>
+    <Full>Dragonsworn Bound Feet</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEALEAA3</Code>
+    <Full>Dragonsworn Wrapped Feet</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Cuir clouté-->
+  <!--Tête-->
+  <ArmorBonus>
+    <Code>DCONSTUA1</Code>
+    <Full>Sigil Marked Lamellar Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Jester Hat</Skin>
+      <Skin>Tarboosh</Skin>
+      <Skin>Crown</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONSTUA1</Code>
+    <Full>Dragonsworn Marked Lamellar Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Torse-->
+  <ArmorBonus>
+    <Code>MELSTUA1</Code>
+    <Full>Sigil Marked Lamellar Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGSTUA1</Code>
+    <Full>Dragonsworn Marked Lamellar Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Bras-->
+  <ArmorBonus>
+    <Code>DHPSTUA1</Code>
+    <Full>Sigil Marked Lamellar Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUISTUA1</Code>
+    <Full>Sigil Stamped Lamellar Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPSTUA1</Code>
+    <Full>Dragonsworn Marked Lamellar Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUISTUA1</Code>
+    <Full>Dragonsworn Stamped Lamellar Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Mains-->
+  <ArmorBonus>
+    <Code>AFSTUA1</Code>
+    <Full>Sigil Marked Lamellar Gloves</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>FATSTUA1</Code>
+    <Full>Dragonsworn Marked Lamellar Gloves</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>DSTRSTUA1</Code>
+    <Full>Sigil Marked Lamellar Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRSTUA1</Code>
+    <Full>Dragonsworn Marked Lamellar Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>DDEXSTUA1</Code>
+    <Full>Sigil Marked Lamellar Feet</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ARCSTUA1</Code>
+    <Full>Sigil Stamped Lamellar Feet</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>ARC</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXSTUA1</Code>
+    <Full>Dragonsworn Marked Lamellar Feet</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MADMGSTUA1</Code>
+    <Full>Dragonsworn Stamped Lamellar Feet</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MADMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Maille-->
+  <!--Têtes-->
+  <ArmorBonus>
+    <Code>DCONCHAA1</Code>
+    <Full>Sigil Enchanted Mail Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Jester Hat</Skin>
+      <Skin>Tarboosh</Skin>
+      <Skin>Crown</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DACUCHAA1</Code>
+    <Full>Sigil Ensorcelled Mail Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Jester Hat</Skin>
+      <Skin>Tarboosh</Skin>
+      <Skin>Crown</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUICHAA1</Code>
+    <Full>Sigil Spelled Mail Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Jester Hat</Skin>
+      <Skin>Tarboosh</Skin>
+      <Skin>Crown</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONCHAA1</Code>
+    <Full>Dragonsworn Enchanted Mail Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACUCHAA1</Code>
+    <Full>Dragonsworn Ensorcelled Mail Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUICHAA1</Code>
+    <Full>Dragonsworn Spelled Mail Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Torse-->
+  <ArmorBonus>
+    <Code>MELCHAA1</Code>
+    <Full>Sigil Enchanted Mail Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MAGCHAA1</Code>
+    <Full>Sigil Ensorcelled Mail Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MAGIC</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGCHAA1</Code>
+    <Full>Dragonsworn Enchanted Mail Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MADMGCHAA1</Code>
+    <Full>Dragonsworn Ensorcelled Mail Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MADMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Bras-->
+  <ArmorBonus>
+    <Code>DHPCHAA1</Code>
+    <Full>Sigil Enchanted Mail Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEACHAA1</Code>
+    <Full>Sigil Ensorcelled Mail Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPCHAA1</Code>
+    <Full>Dragonsworn Enchanted Mail Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFCHAA1</Code>
+    <Full>Dragonsworn Ensorcelled Mail Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Mains-->
+  <ArmorBonus>
+    <Code>DDEXCHAA1</Code>
+    <Full>Sigil Enchanted Mail Gloves</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXCHAA1</Code>
+    <Full>Dragonsworn Enchanted Mail Gloves</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>DSTRCHAA1</Code>
+    <Full>Sigil Enchanted Mail Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>POWCHAA1</Code>
+    <Full>Sigil Ensorcelled Mail Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>POW</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRCHAA1</Code>
+    <Full>Dragonsworn Enchanted Mail Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DPOWCHAA1</Code>
+    <Full>Dragonsworn Ensorcelled Mail Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>MAN</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>AFCHAA1</Code>
+    <Full>Sigil Enchanted Mail Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFCHAA2</Code>
+    <Full>Sigil Ensorcelled Mail Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DUACHAA1</Code>
+    <Full>Sigil Spelled Mail Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>DUAL</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DURCHAA1</Code>
+    <Full>Dragonsworn Enchanted Mail Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>DUR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEACHAA2</Code>
+    <Full>Dragonsworn Ensorcelled Mail Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>FATCHAA1</Code>
+    <Full>Dragonsworn Spelled Mail Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Plate-->
+  <!--Tête-->
+  <ArmorBonus>
+    <Code>DCONPLAA1</Code>
+    <Full>Sigil Gilded Plate Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Jester Hat</Skin>
+      <Skin>Tarboosh</Skin>
+      <Skin>Crown</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONPLAA1</Code>
+    <Full>Dragonsworn Gilded Plate Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Torse-->
+  <ArmorBonus>
+    <Code>MELPLAA1</Code>
+    <Full>Sigil Gilded Plate Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGPLAA1</Code>
+    <Full>Dragonsworn Gilded Plate Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Bras-->
+  <ArmorBonus>
+    <Code>DHPPLAA1</Code>
+    <Full>Sigil Gilded Plate Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPPLAA1</Code>
+    <Full>Dragonsworn Gilded Plate Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Mains-->
+  <ArmorBonus>
+    <Code>DDEXPLAA1</Code>
+    <Full>Sigil Gilded Plate Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXPLAA1</Code>
+    <Full>Dragonsworn Gilded Plate Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>DSTRPLAA1</Code>
+    <Full>Sigil Gilded Plate Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRPLAA1</Code>
+    <Full>Dragonsworn Gilded Plate Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>AFPLAA1</Code>
+    <Full>Sigil Gilded Plate Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUIPLAA1</Code>
+    <Full>Sigil Blazed Plate Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>FATPLAA1</Code>
+    <Full>Dragonsworn Gilded Plate Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUIPLAA1</Code>
+    <Full>Dragonsworn Blazed Plate Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>PLA</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+
+  <!-- HIBERNIA -->
+  <!-- Tissu -->
+  <!-- Têtes-->
+
+  <ArmorBonus>
+    <Code>DACUCLOH1</Code>
+    <Full>Bespelled woven head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Antlered Helm</Skin>
+      <Skin>Steeple Hat</Skin>
+      <Skin>Wreath</Skin>
+      <Skin>Leaf hat</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEACLOH1</Code>
+    <Full>Enchanted woven head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Antlered Helm</Skin>
+      <Skin>Steeple Hat</Skin>
+      <Skin>Wreath</Skin>
+      <Skin>Leaf hat</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUICLOH1</Code>
+    <Full>Enticing woven head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Antlered Helm</Skin>
+      <Skin>Steeple Hat</Skin>
+      <Skin>Wreath</Skin>
+      <Skin>Leaf hat</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACUCLOH1</Code>
+    <Full>Dragonsworn Bespelled woven head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFCLOH1</Code>
+    <Full>Dragonsworn enchanted woven head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUICLOH1</Code>
+    <Full>Dragonsworn enticing woven head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Torses-->
+  <ArmorBonus>
+    <Code>MAGCLOH1</Code>
+    <Full>Bespelled woven Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MAGIC</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MELCLOH1</Code>
+    <Full>Enchanted woven Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MADMGCLOH1</Code>
+    <Full>Dragonsworn Bespelled woven Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MADMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGCLOH1</Code>
+    <Full>Dragonsworn Enchanted woven Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Bras-->
+  <ArmorBonus>
+    <Code>DHPCLOH1</Code>
+    <Full>Bespelled woven Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFCLOH2</Code>
+    <Full>Spell Riddled woven Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPCLOH1</Code>
+    <Full>Dragonsworn Bespelled woven Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEACLOH2</Code>
+    <Full>Dragonsworn Spell Riddled woven Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Mains-->
+  <ArmorBonus>
+    <Code>DCONCLOH1</Code>
+    <Full>Bespelled woven Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONCLOH1</Code>
+    <Full>Dragonsworn Bespelled woven Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>POWCLOH1</Code>
+    <Full>Bespelled woven Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>POW</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRCLOH1</Code>
+    <Full>Enchanted woven Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DPOWCLOH1</Code>
+    <Full>Dragonsworn Bespelled woven Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>MAN</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRCLOH1</Code>
+    <Full>Dragonsworn Enchanted woven Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>DDEXCLOH1</Code>
+    <Full>Bespelled woven Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>AFCLOH1</Code>
+    <Full>Enchanted woven Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXCLOH1</Code>
+    <Full>Dragonsworn Bespelled woven Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DURCLOH1</Code>
+    <Full>Dragonsworn Enchanted woven Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>DUR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+
+  <!--Cuir-->
+  <!--Têtes-->
+  <ArmorBonus>
+    <Code>DCONLEAH1</Code>
+    <Full>Embroidered Cruaigh Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Antlered Helm</Skin>
+      <Skin>Wreath</Skin>
+      <Skin>Leaf hat</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DACULEAH1</Code>
+    <Full>Ensorcelled Cruaigh Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Antlered Helm</Skin>
+      <Skin>Wreath</Skin>
+      <Skin>Leaf hat</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONLEAH1</Code>
+    <Full>Dragonsworn Embroidered Cruaigh Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACULEAH1</Code>
+    <Full>Dragonsworn Ensorcelled Cruaigh Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Torse-->
+  <ArmorBonus>
+    <Code>MELLEAH1</Code>
+    <Full>Embroidered Cruaigh Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MAGLEAH1</Code>
+    <Full>Ensorcelled Cruaigh Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MAGIC</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGLEAH1</Code>
+    <Full>Dragonsworn Embroidered Cruaigh Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MADMGLEAH1</Code>
+    <Full>Dragonsworn Ensorcelled Cruaigh Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MADMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Bras-->
+  <ArmorBonus>
+    <Code>DHPLEAH1</Code>
+    <Full>Embroidered Cruaigh Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPLEAH1</Code>
+    <Full>Dragonsworn Embroidered Cruaigh Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Mains-->
+  <ArmorBonus>
+    <Code>DDEXLEAH1</Code>
+    <Full>Embroidered Cruaigh Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXLEAH1</Code>
+    <Full>Dragonsworn Embroidered Cruaigh Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>DSTRLEAH1</Code>
+    <Full>Embroidered Cruaigh Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>POWLEAH1</Code>
+    <Full>Ensorcelled Cruaigh Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>POW</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRLEAH1</Code>
+    <Full>Dragonsworn Embroidered Cruaigh Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DPOWLEAH1</Code>
+    <Full>Dragonsworn Ensorcelled Cruaigh Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>MAN</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>CELLEAH1</Code>
+    <Full>Embroidered Cruaigh Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>DUAL</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>AFLEAH1</Code>
+    <Full>Ensorcelled Cruaigh Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>FATLEAH1</Code>
+    <Full>Dragonsworn Embroidered Cruaigh Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DFATLEAH1</Code>
+    <Full>Dragonsworn Ensorcelled Cruaigh Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Renforcé-->
+  <!--Têtes-->
+  <ArmorBonus>
+    <Code>ARCREIH1</Code>
+    <Full>Ornamented Cailocht Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>ARC</Code>
+      <Value>3</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Antlered Helm</Skin>
+      <Skin>Wreath</Skin>
+      <Skin>Leaf hat</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DACUREIH1</Code>
+    <Full>Blazed Cailocht Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Antlered Helm</Skin>
+      <Skin>Wreath</Skin>
+      <Skin>Leaf hat</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MADMGREIH1</Code>
+    <Full>Dragonsworn Ornamented Cailocht Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MADMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACUREIH1</Code>
+    <Full>Dragonsworn Blazed Cailocht Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Torses-->
+  <ArmorBonus>
+    <Code>MELREIH1</Code>
+    <Full>Ornamented Cailocht Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MAGREIH1</Code>
+    <Full>Blazed Cailocht Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MAGIC</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGREIH1</Code>
+    <Full>Dragonsworn Ornamented Cailocht Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MADMGREIH1</Code>
+    <Full>Dragonsworn Blazed Cailocht Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MADMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Bras-->
+  <ArmorBonus>
+    <Code>DHPREIH1</Code>
+    <Full>Ornamented Cailocht Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEAREIH1</Code>
+    <Full>Blazed Cailocht Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUIREIH1</Code>
+    <Full>Etched Cailocht Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPREIH1</Code>
+    <Full>Dragonsworn Ornamented Cailocht Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFREIH1</Code>
+    <Full>Dragonsworn Blazed Cailocht Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUIREIH1</Code>
+    <Full>Dragonsworn Etched Cailocht Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Mains-->
+  <ArmorBonus>
+    <Code>AFREIH1</Code>
+    <Full>Ornamented Cailocht Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFREIH2</Code>
+    <Full>Blazed Cailocht Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>FATREIH1</Code>
+    <Full>Dragonsworn Ornamented Cailocht Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEAREIH2</Code>
+    <Full>Dragonsworn Blazed Cailocht Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>DSTRREIH1</Code>
+    <Full>Ornamented Cailocht Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>POWREIH1</Code>
+    <Full>Blazed Cailocht Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>POW</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRREIH1</Code>
+    <Full>Dragonsworn Ornamented Cailocht Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DPOWREIH1</Code>
+    <Full>Dragonsworn Blazed Cailocht Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>MAN</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>DCONREIH1</Code>
+    <Full>Ornamented Cailocht Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXREIH1</Code>
+    <Full>Blazed Cailocht Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CELREIH1</Code>
+    <Full>Etched Cailocht Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>DUAL</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONREIH1</Code>
+    <Full>Dragonsworn Ornamented Cailocht Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXREIH1</Code>
+    <Full>Dragonsworn Blazed Cailocht Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DFATREIH1</Code>
+    <Full>Dragonsworn Etched Cailocht Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>REI</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Ecaille-->
+  <!--Têtes-->
+  <ArmorBonus>
+    <Code>DQUISCAH1</Code>
+    <Full>Spell Marked Osnadurtha Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Antlered Helm</Skin>
+      <Skin>Wreath</Skin>
+      <Skin>Leaf hat</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DCONSCAH1</Code>
+    <Full>Spell Etched Osnadurtha Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Antlered Helm</Skin>
+      <Skin>Wreath</Skin>
+      <Skin>Leaf hat</Skin>
+      <Skin>Woodsman's Cap</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUISCAH1</Code>
+    <Full>Dragonsworn Marked Osnadurtha Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONSCAH1</Code>
+    <Full>Dragonsworn Etched Osnadurtha Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Torse-->
+  <ArmorBonus>
+    <Code>MELSCAH1</Code>
+    <Full>Decorated Osnadurtha Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MAGSCAH1</Code>
+    <Full>Spell Marked Osnadurtha Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MAGIC</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGSCAH1</Code>
+    <Full>Dragonsworn Decorated Osnadurtha Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MADMGSCAH1</Code>
+    <Full>Dragonsworn Marked Osnadurtha Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MADMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Bras-->
+  <ArmorBonus>
+    <Code>DHPSCAH1</Code>
+    <Full>Decorated Osnadurtha Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEASCAH1</Code>
+    <Full>Spell Marked Osnadurtha Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPSCAH1</Code>
+    <Full>Dragonsworn Decorated Osnadurtha Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFSCAH1</Code>
+    <Full>Dragonsworn Marked Osnadurtha Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Mains-->
+  <ArmorBonus>
+    <Code>DDEXSCAH1</Code>
+    <Full>Decorated Osnadurtha Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFSCAH2</Code>
+    <Full>Spell Marked Osnadurtha Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXSCAH1</Code>
+    <Full>Dragonsworn Decorated Osnadurtha Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEASCAH2</Code>
+    <Full>Dragonsworn Marked Osnadurtha Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>DSTRSCAH1</Code>
+    <Full>Decorated Osnadurtha Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>POWSCAH1</Code>
+    <Full>Spell Marked Osnadurtha Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>POW</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRSCAH1</Code>
+    <Full>Dragonsworn Decorated Osnadurtha Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DPOWSCAH1</Code>
+    <Full>Dragonsworn Marked Osnadurtha Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>MAN</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>AFSCAH1</Code>
+    <Full>Decorated Osnadurtha Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DACUSCAH1</Code>
+    <Full>Spell Marked Osnadurtha Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>FATSCAH1</Code>
+    <Full>Dragonsworn Decorated Osnadurtha Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACUSCAH1</Code>
+    <Full>Dragonsworn Marked Osnadurtha Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>SCA</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+
+  <!--Midgard-->
+  <!--Tissu-->
+  <!--Têtes-->
+  <ArmorBonus>
+    <Code>DACUCLOM1</Code>
+    <Full>Rune Knit Padded head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Circlet</Skin>
+      <Skin>Steeple Hat</Skin>
+      <Skin>Fur-Trimmed hat</Skin>
+      <Skin>Wolf head Helm</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEACLOM1</Code>
+    <Full>Rune Braided Padded head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Circlet</Skin>
+      <Skin>Steeple Hat</Skin>
+      <Skin>Fur-Trimmed hat</Skin>
+      <Skin>Wolf head Helm</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUICLOM1</Code>
+    <Full>Rune Riddled Padded head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Circlet</Skin>
+      <Skin>Steeple Hat</Skin>
+      <Skin>Fur-Trimmed hat</Skin>
+      <Skin>Wolf head Helm</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACUCLOM1</Code>
+    <Full>Dragonsworn Knit Padded head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFCLOM1</Code>
+    <Full>Dragonsworn Braided Padded head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUICLOM1</Code>
+    <Full>Dragonsworn Riddled Padded head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Torses-->
+  <ArmorBonus>
+    <Code>MAGCLOM1</Code>
+    <Full>Rune Knit Padded Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MAGIC</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MADMGCLOM1</Code>
+    <Full>Dragonsworn Knit Padded Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MADMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Bras-->
+  <ArmorBonus>
+    <Code>DHPCLOM1</Code>
+    <Full>Rune Knit Padded Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFCLOM2</Code>
+    <Full>Rune Braided Padded Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPCLOM1</Code>
+    <Full>Dragonsworn Knit Padded Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEACLOM2</Code>
+    <Full>Dragonsworn Braided Padded Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Mains-->
+  <ArmorBonus>
+    <Code>AFCLOM1</Code>
+    <Full>Rune Knit Padded Gloves</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DURCLOM1</Code>
+    <Full>Dragonsworn Knit Padded Gloves</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>DUR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>POWCLOM1</Code>
+    <Full>Rune Knit Padded Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>POW</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRCLOM1</Code>
+    <Full>Rune Braided Padded Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DPOWCLOM1</Code>
+    <Full>Dragonsworn Knit Padded Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>MAN</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRCLOM1</Code>
+    <Full>Dragonsworn Braided Padded Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>DDEXCLOM1</Code>
+    <Full>Rune Knit Padded Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DCONCLOM1</Code>
+    <Full>Rune Braided Padded Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXCLOM1</Code>
+    <Full>Dragonsworn Knit Padded Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONCLOM1</Code>
+    <Full>Dragonsworn Braided Padded Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CLO</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Cuir-->
+  <!--Têtes-->
+  <ArmorBonus>
+    <Code>DCONLEAM1</Code>
+    <Full>Rune Stitched Starklaedar Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Circlet</Skin>
+      <Skin>Fur-Trimmed hat</Skin>
+      <Skin>Wolf head Helm</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONLEAM1</Code>
+    <Full>Dragonsworn Stitched Starklaedar Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Torses-->
+  <ArmorBonus>
+    <Code>MELLEAM1</Code>
+    <Full>Rune Stitched Starklaedar Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGLEAM1</Code>
+    <Full>Dragonsworn Stitched Starklaedar Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Bras-->
+  <ArmorBonus>
+    <Code>DHPLEAM1</Code>
+    <Full>Rune Stitched Starklaedar Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPLEAM1</Code>
+    <Full>Dragonsworn Stitched Starklaedar Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Mains-->
+  <ArmorBonus>
+    <Code>AFLEAM1</Code>
+    <Full>Rune Stitched Starklaedar Gloves</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DFATLEAM1</Code>
+    <Full>Dragonsworn Stitched Starklaedar Gloves</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>DSTRLEAM1</Code>
+    <Full>Rune Stitched Starklaedar Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRLEAM1</Code>
+    <Full>Dragonsworn Stitched Starklaedar Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>LEFLEAM1</Code>
+    <Full>Rune Stitched Starklaedar Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>DUAL</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUILEAM1</Code>
+    <Full>Rune Sewn Starklaedar Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>FATLEAM1</Code>
+    <Full>Dragonsworn Stitched Starklaedar Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUILEAM1</Code>
+    <Full>Dragonsworn Sewn Starklaedar Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>LEA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Clouté-->
+  <!--Têtes-->
+  <ArmorBonus>
+    <Code>ARCSTUM1</Code>
+    <Full>Rune Etched Starkaskodd Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>ARC</Code>
+      <Value>3</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Circlet</Skin>
+      <Skin>Fur-Trimmed hat</Skin>
+      <Skin>Wolf head Helm</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>AFSTUM1</Code>
+    <Full>Rune Carved Starkaskodd Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Circlet</Skin>
+      <Skin>Fur-Trimmed hat</Skin>
+      <Skin>Wolf head Helm</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MADMGSTUM1</Code>
+    <Full>Dragonsworn Etched Starkaskodd Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MADMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DFATSTUM1</Code>
+    <Full>Dragonsworn Carved Starkaskodd Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Torse-->
+  <ArmorBonus>
+    <Code>MELSTUM1</Code>
+    <Full>Rune Etched Starkaskodd Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MAGSTUM1</Code>
+    <Full>Rune Carved Starkaskodd Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MAGIC</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGSTUM1</Code>
+    <Full>Dragonsworn Etched Starkaskodd Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Manches-->
+  <ArmorBonus>
+    <Code>DHPSTUM1</Code>
+    <Full>Rune Etched Starkaskodd Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUISTUM1</Code>
+    <Full>Rune Carved Starkaskodd Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPSTUM1</Code>
+    <Full>Dragonsworn Etched Starkaskodd Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUISTUM1</Code>
+    <Full>Dragonsworn Carved Starkaskodd Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Mains-->
+  <ArmorBonus>
+    <Code>DDEXSTUM1</Code>
+    <Full>Rune Etched Starkaskodd Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXSTUM1</Code>
+    <Full>Dragonsworn Etched Starkaskodd Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>DSTRSTUM1</Code>
+    <Full>Rune Etched Starkaskodd Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRSTUM1</Code>
+    <Full>Dragonsworn Etched Starkaskodd Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>DCONSTUM1</Code>
+    <Full>Rune Etched Starkaskodd Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFSTUM1</Code>
+    <Full>Rune Carved Starkaskodd Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>LEFSTUM1</Code>
+    <Full>Rune Struck Starkaskodd Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>DUAL</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONSTUM1</Code>
+    <Full>Dragonsworn Etched Starkaskodd Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>FATSTUM1</Code>
+    <Full>Dragonsworn Carved Starkaskodd Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MELSTUM2</Code>
+    <Full>Dragonsworn Struck Starkaskodd Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>STU</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!-- Maille -->
+  <!-- Têtes -->
+  <ArmorBonus>
+    <Code>DQUICHAM1</Code>
+    <Full>Rune Scribed Starkakedja Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Circlet</Skin>
+      <Skin>Fur-Trimmed hat</Skin>
+      <Skin>Wolf head Helm</Skin>
+      <Skin>Winged Helm</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DCONCHAM1</Code>
+    <Full>Rune Marked Starkakedja Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>CON</Code>
+      <Value>5</Value>
+    </Bonus>
+    <Skins>
+      <Skin>Circlet</Skin>
+      <Skin>Fur-Trimmed hat</Skin>
+      <Skin>Wolf head Helm</Skin>
+      <Skin>Winged Helm</Skin>
+    </Skins>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUICHAM1</Code>
+    <Full>Dragonsworn Scribed Starkakedja Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>CONCHAM1</Code>
+    <Full>Dragonsworn Marked Starkakedja Head</Full>
+    <Armor>HEA</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>CON</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Torses-->
+  <ArmorBonus>
+    <Code>MELCHAM1</Code>
+    <Full>Rune Bound Starkakedja Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MELEE</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MAGCHAM1</Code>
+    <Full>Rune Scribed Starkakedja Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>MAGIC</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGCHAM1</Code>
+    <Full>Dragonsworn Bound Starkakedja Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MADMGCHAM1</Code>
+    <Full>Dragonsworn Scribed Starkakedja Torso</Full>
+    <Armor>TOR</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MADMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Bras-->
+  <ArmorBonus>
+    <Code>DHPCHAM1</Code>
+    <Full>Rune Bound Starkakedja Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEACHAM1</Code>
+    <Full>Rune Scribed Starkakedja Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HPCHAM1</Code>
+    <Full>Dragonsworn Bound Starkakedja Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>HP</Code>
+      <Value>40</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFCHAM1</Code>
+    <Full>Dragonsworn Scribed Starkakedja Arms</Full>
+    <Armor>ARM</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Mains-->
+  <ArmorBonus>
+    <Code>DDEXCHAM1</Code>
+    <Full>Rune Bound Starkakedja Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFCHAM2</Code>
+    <Full>Rune Scribed Starkakedja Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXCHAM1</Code>
+    <Full>Dragonsworn Bound  Starkakedja Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEACHAM2</Code>
+    <Full>Dragonsworn Scribed Starkakedja Hands</Full>
+    <Armor>HAN</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Jambes-->
+  <ArmorBonus>
+    <Code>DSTRCHAM1</Code>
+    <Full>Rune Bound Starkakedja Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>POWCHAM1</Code>
+    <Full>Rune Scribed Starkakedja Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>POW</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRCHAM1</Code>
+    <Full>Dragonsworn Bound Starkakedja Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DPOWCHAM1</Code>
+    <Full>Dragonsworn Scribed Starkakedja Legs</Full>
+    <Armor>LEG</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>MAN</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Pieds-->
+  <ArmorBonus>
+    <Code>AFCHAM1</Code>
+    <Full>Rune Bound Starkakedja Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>AF</Code>
+      <Value>10</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DACUCHAM1</Code>
+    <Full>Rune Scribed Starkakedja Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>FATCHAM1</Code>
+    <Full>Dragonsworn Bound Starkakedja Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>FAT</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACUCHAM1</Code>
+    <Full>Dragonsworn Scribed Starkakedja Feets</Full>
+    <Armor>FEE</Armor>
+    <ArmorType>CHA</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Armes et boucliers-->
+  <!--Armes-->
+  <!--Midgard-->
+  <ArmorBonus>
+    <Code>DSTRMWP1</Code>
+    <Full>Dragonsworn Long sword</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMWP2</Code>
+    <Full>Dragonsworn Fist Wrap</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMWP3</Code>
+    <Full>Dragonsworn Double Bladed Axe</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMWP4</Code>
+    <Full>Dragonsworn War Hammer</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXMBOW1</Code>
+    <Full>Dragonsworn Composite Bow</Full>
+    <Armor>RANGE</Armor>
+    <ArmorType>RANGE</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXMSPEAR1</Code>
+    <Full>Dragonsworn Hooked Spear</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXMSPEAR2</Code>
+    <Full>Dragonsworn Battle Spear</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Thrust Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMWP5</Code>
+    <Full>Dragonsworn Mauler Staff</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMWP6</Code>
+    <Full>Dragonsworn Mauler Shod Staff</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMWP7</Code>
+    <Full>Dragonsworn Great Sword</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMWP8</Code>
+    <Full>Dragonsworn Battle Axe</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMWP9</Code>
+    <Full>Dragonsworn Hooked Hammer</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DACUMSTAFF</Code>
+    <Full>Dragonsworn Archmage Staff</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXMOH1</Code>
+    <Full>Dragonsworn Moon Claw</Full>
+    <Armor>OH</Armor>
+    <ArmorType>Thrust Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMOH1</Code>
+    <Full>Dragonsworn Hand Wrap</Full>
+    <Armor>OH</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMOH2</Code>
+    <Full>Dragonsworn Fang Greave</Full>
+    <Armor>OH</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMOH3</Code>
+    <Full>Dragonsworn Hatchet</Full>
+    <Armor>OH</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Albion-->
+  <ArmorBonus>
+    <Code>DACUASTAFF</Code>
+    <Full>Dragonsworn Shod Staff</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXABOW1</Code>
+    <Full>Dragonsworn Shortbow</Full>
+    <Armor>RANGE</Armor>
+    <ArmorType>RANGE</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXABOW2</Code>
+    <Full>Dragonsworn Crossbow</Full>
+    <Armor>RANGE</Armor>
+    <ArmorType>RANGE</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXABOW3</Code>
+    <Full>Dragonsworn Longbow</Full>
+    <Armor>RANGE</Armor>
+    <ArmorType>RANGE</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DACUAINS1</Code>
+    <Full>Dragonsworn Arpeggio Mandolin</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>TWO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DURAINS1</Code>
+    <Full>Sigil Harmonious Harp</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>TWO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>DUR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DURAINS2</Code>
+    <Full>Dragonsworn Harmonious Harp</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>TWO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>DUR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXAINS1</Code>
+    <Full>Sigil Arpeggio Harp</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>TWO</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRASTAFF1</Code>
+    <Full>Dragonsworn Mauler Shod Staff</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXASTAFF1</Code>
+    <Full>Dragonsworn Shod Quarterstaff</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRAHAST1</Code>
+    <Full>Dragonsworn Lucerne Hammer (Hast)</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRAHAST2</Code>
+    <Full>Dragonsworn Partisan (Hast)</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Thrust Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRAHAST3</Code>
+    <Full>Dragonsworn Bardiche (Hast)</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRA2HWP1</Code>
+    <Full>Dragonsworn Great Hammer (2H)</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRA2HWP2</Code>
+    <Full>Dragonsworn Tuck (2H)</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Thrust Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRA2HWP3</Code>
+    <Full>Dragonsworn Great Sword (2H)</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXA1HWP1</Code>
+    <Full>Dragonsworn Rapier</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Thrust Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRA1HWP1</Code>
+    <Full>Dragonsworn War Hammer</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRA1HWP2</Code>
+    <Full>Dragonsworn Long Sword</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRA1HWP3</Code>
+    <Full>Dragonsworn Fist Wrap</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRA1HWP4</Code>
+    <Full>Dragonsworn Hammer Chain</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Thrust Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRA1HWP5</Code>
+    <Full>Dragonsworn Blade Whip</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXAOH1</Code>
+    <Full>Dragonsworn Stiletto</Full>
+    <Armor>OH</Armor>
+    <ArmorType>Thrust Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRAOH1</Code>
+    <Full>Dragonsworn Hand Wrap</Full>
+    <Armor>OH</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRAOH2</Code>
+    <Full>Dragonsworn Hammer</Full>
+    <Armor>OH</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRAOH3</Code>
+    <Full>Dragonsworn Short Sword</Full>
+    <Armor>OH</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Hibernia-->
+  <ArmorBonus>
+    <Code>DACUHSTAFF</Code>
+    <Full>Dragonsworn Magus Staff</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRH2HWP1</Code>
+    <Full>Dragonsworn Mauler Staff (4.6 vit)</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRH2HWP2</Code>
+    <Full>Dragonsworn Mauler Shod Staff (5.3 vit)</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRH2HWP3</Code>
+    <Full>Dragonsworn War Scythe</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRH2HWP4</Code>
+    <Full>Dragonsworn Great Hammer (GA)</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRH2HWP5</Code>
+    <Full>Dragonsworn Great Sword (GA)</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRH2HWP6</Code>
+    <Full>Dragonsworn Battle Spear</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEAH2HWP1</Code>
+    <Full>Spell Marked Adban Trireach Harp</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>TWO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEAH2HWP2</Code>
+    <Full>Dragonsworn Marked Adban Trireach Mandolin</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>TWO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DURH2HWP1</Code>
+    <Full>Spell Marked Appoggiatura Harp</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>TWO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>DUR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DURH2HWP2</Code>
+    <Full>Dragonsworn Marked Appoggiatura Mandolin</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>TWO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>DUR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXH2HWP1</Code>
+    <Full>Spell Marked Luinneag Harp</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>TWO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXH2HWP2</Code>
+    <Full>Dragonsworn Marked Luinneag Mandolin</Full>
+    <Armor>TWO</Armor>
+    <ArmorType>TWO</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXH1MHWP1</Code>
+    <Full>Dragonsworn Rapier</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Thrust Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRH1MHWP1</Code>
+    <Full>Dragonsworn Fist Wrap</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRH1MHWP2</Code>
+    <Full>Dragonsworn Long Sword</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRH1MHWP3</Code>
+    <Full>Dragonsworn War Hammer</Full>
+    <Armor>MH</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXHOH1</Code>
+    <Full>Dragonsworn Stiletto</Full>
+    <Armor>OH</Armor>
+    <ArmorType>Thrust Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRHOH1</Code>
+    <Full>Dragonsworn Hand Wrap</Full>
+    <Armor>OH</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRHOH2</Code>
+    <Full>Dragonsworn Short Sword</Full>
+    <Armor>OH</Armor>
+    <ArmorType>Slash Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRHOH3</Code>
+    <Full>Dragonsworn Hammer</Full>
+    <Armor>OH</Armor>
+    <ArmorType>Crush Weapon</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Boucliers-->
+  <!--Midgard-->
+  <ArmorBonus>
+    <Code>DACUMSHI1</Code>
+    <Full>Rune Tempered Pious Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACUMSHI1</Code>
+    <Full>Dragonsworn Tempered Pious Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEALMSHI1</Code>
+    <Full>Rune Tempered Mending Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEALMSHI2</Code>
+    <Full>Dragonsworn Tempered Mending Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFMSHI1</Code>
+    <Full>Rune Tempered Accomodation Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXMSHI1</Code>
+    <Full>Rune Tempered Adroit Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXMSHI1</Code>
+    <Full>Dragonsworn Tempered Adroit Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXMSHI2</Code>
+    <Full>Rune Etched Adroit Cresent Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXMSHI2</Code>
+    <Full>Dragonsworn Etched Adroit Cresent Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMSHI1</Code>
+    <Full>Rune Etched Mighty Cresent Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRMSHI1</Code>
+    <Full>Dragonsworn Etched Mighty Cresent Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUIMSHI1</Code>
+    <Full>Rune Etched Speedy Cresent Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUIMSHI1</Code>
+    <Full>Dragonsworn Etched Speedy Cresent Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DACUMSHI2</Code>
+    <Full>Rune Delinated Pious Grave Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACUMSHI2</Code>
+    <Full>Dragonsworn Delinated Pious Grave Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGMSHI1</Code>
+    <Full>Dragonsworn Delinated Protector's Grave Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEALMSHI3</Code>
+    <Full>Rune Delinated Mending Grave Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEALMSHI4</Code>
+    <Full>Dragonsworn Delinated Mending Grave Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>SHIMSHI1</Code>
+    <Full>Rune Delinated Protector's Grave Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>SHI</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXMSHI3</Code>
+    <Full>Rune Delinated Adroit Grave Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXMSHI3</Code>
+    <Full>Dragonsworn Delinated Adroit Grave Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRMSHI3</Code>
+    <Full>Rune Delinated Mighty Grave Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRMSHI3</Code>
+    <Full>Dragonsworn Delinated Mighty Grave Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUIMSHI2</Code>
+    <Full>Rune Delinated Speedy Grave Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUIMSHI2</Code>
+    <Full>Dragonsworn Delinated Speedy Grave Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>MID</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Albion-->
+  <ArmorBonus>
+    <Code>MEDMGASHI1</Code>
+    <Full>Dragonsworn Fixed Protector's Tower Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>SHIASHI1</Code>
+    <Full>Sigil Fixed Protector's Tower Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>SHI</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>SHIASHI1</Code>
+    <Full>Sigil Fixed Protector's Tower Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>SHI</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXASHI1</Code>
+    <Full>Sigil Fixed Adroit Tower Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXASHI1</Code>
+    <Full>Dragonsworn Fixed Adroit Tower Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRASHI1</Code>
+    <Full>Sigil Fixed Mighty Tower Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRASHI1</Code>
+    <Full>Dragonsworn Fixed Mighty Tower Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUIASHI1</Code>
+    <Full>Sigil Fixed Speedy Tower Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUIASHI1</Code>
+    <Full>Dragonsworn Fixed Speedy Tower Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DACUASHI1</Code>
+    <Full>Sigil Pressed Insightful Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACUASHI1</Code>
+    <Full>Dragonsworn Pressed Insightful Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGASHI2</Code>
+    <Full>Dragonsworn Protector's Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEAASHI1</Code>
+    <Full>Sigil Pressed Rejuvinating Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEAASHI2</Code>
+    <Full>Dragonsworn  Rejuvinating Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFASHI1</Code>
+    <Full>Sigil Pressed Accomodation Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFASHI2</Code>
+    <Full>Dragonsworn  Accomodation Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>SHIASHI2</Code>
+    <Full>Sigil Pressed Protector's Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>SHI</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXASHI2</Code>
+    <Full>Sigil Pressed Adroit Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXASHI2</Code>
+    <Full>Dragonsworn Adroit Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRASHI2</Code>
+    <Full>Sigil Pressed Mighty Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRASHI2</Code>
+    <Full>Dragonsworn Mighty Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUIASHI2</Code>
+    <Full>Sigil Pressed Speedy Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUIASHI2</Code>
+    <Full>Dragonsworn Speedy Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DACUASHI2</Code>
+    <Full>Sigil Forged Insightful Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACUASHI2</Code>
+    <Full>Dragonsworn Forged Insightful Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGASHI3</Code>
+    <Full>Dragonsworn Forged Protector's Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEAASHI3</Code>
+    <Full>Sigil Forged Rejuvinating Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEAASHI4</Code>
+    <Full>Dragonsworn Forged Rejuvinating Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFASHI3</Code>
+    <Full>Sigil Forged Accomodation Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFASHI4</Code>
+    <Full>Dragonsworn Forged Accomodation Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>SHIASHI3</Code>
+    <Full>Sigil Forged Protector's Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>SHI</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXASHI3</Code>
+    <Full>Sigil Forged Adroit Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXASHI3</Code>
+    <Full>Dragonsworn Forged Adroit Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRASHI3</Code>
+    <Full>Sigil Forged Mighty Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRASHI3</Code>
+    <Full>Dragonsworn Forged Mighty Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>ALB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <!--Hibernia-->
+  <ArmorBonus>
+    <Code>DACUHSHI1</Code>
+    <Full>Spell Marked Insightful Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>ACU</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>ACUHSHI1</Code>
+    <Full>Dragonsworn Marked Insightful Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>ACU</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEAHSHI1</Code>
+    <Full>Spell Marked Regrown Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEAHSHI2</Code>
+    <Full>Dragonsworn Marked Regrown Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFHSHI1</Code>
+    <Full>Spell Marked Accomodation Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>BUFHSHI2</Code>
+    <Full>Dragonsworn Marked Accomodation Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>BUF</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXHSHI1</Code>
+    <Full>Spell Marked Adroit Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXHSHI1</Code>
+    <Full>Dragonsworn Marked Adroit Buckler</Full>
+    <Armor>OH</Armor>
+    <ArmorType>SMAL</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEAHSHI3</Code>
+    <Full>Spell Riddled Regrown Leaf Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>HEAHSHI4</Code>
+    <Full>Dragonsworn Riddled Regrown Leaf Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>HEA</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>SHIHSHI1</Code>
+    <Full>Spell Riddled Protector's Leaf Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>SHI</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXHSHI2</Code>
+    <Full>Spell Riddled Adroit Leaf Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXHSHI2</Code>
+    <Full>Dragonsworn Riddled Adroit Leaf Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRHSHI1</Code>
+    <Full>Spell Riddled Mighty Leaf Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRHSHI1</Code>
+    <Full>Dragonsworn Riddled Mighty Leaf Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUIHSHI1</Code>
+    <Full>Spell Riddled Speedy Leaf Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUIHSHI1</Code>
+    <Full>Dragonsworn Riddled Speedy Leaf Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>LAR</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>MEDMGHSHI1</Code>
+    <Full>Dragonsworn Protector's Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>OTH</Type>
+      <Code>MEDMG</Code>
+      <Value>2</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>SHIHSHI2</Code>
+    <Full>Bespelled Protector's Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>SKI</Type>
+      <Code>SHI</Code>
+      <Value>3</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DDEXHSHI3</Code>
+    <Full>Bespelled Adroit Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>DEX</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DEXHSHI3</Code>
+    <Full>Dragonsworn Adroit Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>DEX</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DSTRHSHI2</Code>
+    <Full>Bespelled Mighty Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>STR</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>STRHSHI2</Code>
+    <Full>Dragonsworn Mighty Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>STR</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>DQUIHSHI2</Code>
+    <Full>Bespelled Speedy Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>CAPS</Type>
+      <Code>QUI</Code>
+      <Value>5</Value>
+    </Bonus>
+  </ArmorBonus>
+  <ArmorBonus>
+    <Code>QUIHSHI2</Code>
+    <Full>Dragonsworn Speedy Heater Shield</Full>
+    <Armor>OH</Armor>
+    <ArmorType>MED</ArmorType>
+    <Realm>HIB</Realm>
+    <Bonus>
+      <Type>STA</Type>
+      <Code>QUI</Code>
+      <Value>15</Value>
+    </Bonus>
+  </ArmorBonus>
+</ArmorBonuses>

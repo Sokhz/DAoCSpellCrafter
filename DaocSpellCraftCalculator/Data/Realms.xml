@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Realms>
+  <Realm>
+    <Code>ALB</Code>
+    <Full>Albion</Full>
+  </Realm>
+  <Realm>
+    <Code>HIB</Code>
+    <Full>Hibernia</Full>
+  </Realm>
+  <Realm>
+    <Code>MID</Code>
+    <Full>Midgard</Full>
+  </Realm>
+</Realms>

@@ -1,0 +1,84 @@
+﻿<telerik:RadWindow x:Class="DaocSpellCraftCalculator.Views.I_Options"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:Behavior="clr-namespace:DaocSpellCraftCalculator.Tools.Behavior"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             mc:Ignorable="d" 
+             Header="Options"
+             CanMove="false"      
+             ResizeMode="NoResize"
+             HideMaximizeButton="true"      
+             HideMinimizeButton="true"
+             WindowStartupLocation="CenterOwner"
+             Height="310" Width="700" >
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="30"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Theme : " HorizontalAlignment="Right" />
+        <telerik:RadComboBox ItemsSource="{Binding LstThemes}" SelectedItem="{Binding SelectedTheme}" DisplayMemberPath="Libelle" Grid.Column="2" Margin="0,0,0,4" />
+        <telerik:RadButton Grid.Column="4" ToolTip="Apply the selected theme" Margin="0,0,0,4" Command="{Binding ApplyThemeCommand}">
+            <Image Source="../Images/check.png" Height="24" Width="24"/>
+        </telerik:RadButton>
+        
+        <TextBlock Grid.Row="1" Text="Templates Directory : " HorizontalAlignment="Right" />
+        <TextBox Grid.Row="1" Text="{Binding RepTemplates, UpdateSourceTrigger=PropertyChanged}" Grid.Column="2" Margin="0,0,0,4"/>
+        <telerik:RadButton Grid.Row="1" Grid.Column="4" Content="..." ToolTip="Choose the templates directory" Margin="0,0,0,4" >
+            <i:Interaction.Behaviors>
+                <Behavior:FolderDialogBehavior SetterName="RepTemplates"/>
+            </i:Interaction.Behaviors>
+        </telerik:RadButton>
+
+
+        <TextBlock Text="Items Directory : " Grid.Row="2" HorizontalAlignment="Right"/>
+        <TextBox Text="{Binding RepItems, UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="2" Margin="0,0,0,4"/>
+        <telerik:RadButton Grid.Row="2" Grid.Column="4" Content="..." ToolTip="Choose the items directory" Margin="0,0,0,4" >
+            <i:Interaction.Behaviors>
+                <Behavior:FolderDialogBehavior SetterName="RepItems"/>
+            </i:Interaction.Behaviors>
+        </telerik:RadButton>
+
+        <TextBlock Text="Customize templates : " Grid.Row="3" HorizontalAlignment="Right" />
+        <CheckBox Grid.Row="3" Grid.Column="2" IsChecked="{Binding CustomizeTemplates}" />
+
+        <TextBlock Text="Include raciales resistances : " Grid.Row="4" HorizontalAlignment="Right" />
+        <CheckBox Grid.Row="4" Grid.Column="2" IsChecked="{Binding IncludeRaciales}" />
+
+        <TextBlock Text="Respect Bonus Level : " Grid.Row="5" HorizontalAlignment="Right" />
+        <CheckBox Grid.Row="5" Grid.Column="2" IsChecked="{Binding RespectBonusLevel}" />
+
+        <Grid Grid.Row="7" Grid.ColumnSpan="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <telerik:RadButton Grid.Column="1" Command="{Binding SaveOptionsCommand}" Content="Save"/>
+            <telerik:RadButton Grid.Column="3" Command="telerik:WindowCommands.Close" Content="Close"/>
+        </Grid>
+
+
+    </Grid>
+</telerik:RadWindow>

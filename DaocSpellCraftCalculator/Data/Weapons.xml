@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Weapons>
+  <Weapon>
+    <Code>MH</Code>
+    <Full>Main Hand</Full>
+    <RepName>wep</RepName>
+  </Weapon>
+  <Weapon>
+    <Code>OH</Code>
+    <Full>Off Hand</Full>
+    <RepName>lhwep</RepName>
+  </Weapon>
+  <Weapon>
+    <Code>TWO</Code>
+    <Full>Two Hands</Full>
+    <RepName>2hwep</RepName>
+  </Weapon>
+  <Weapon>
+    <Code>RAN</Code>
+    <Full>Range</Full>
+    <RepName>ranged</RepName>
+  </Weapon>
+  <Weapon>
+    <Code>SMAL</Code>
+    <Full>Small shield</Full>
+    <RepName>ranged</RepName>
+  </Weapon>
+  <Weapon>
+    <Code>MED</Code>
+    <Full>Medium shield</Full>
+    <RepName>ranged</RepName>
+  </Weapon>
+  <Weapon>
+    <Code>LAR</Code>
+    <Full>Large shield</Full>
+    <RepName>ranged</RepName>
+  </Weapon>
+</Weapons>

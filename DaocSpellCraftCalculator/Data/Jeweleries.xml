@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Jeweleries>
+  <Jewelery>
+    <Code>NEC</Code>
+    <Full>Neck</Full>
+    <RepName>neck</RepName>
+  </Jewelery>
+  <Jewelery>
+    <Code>CLO</Code>
+    <Full>Cloak</Full>
+    <RepName>cloak</RepName>
+  </Jewelery>
+  <Jewelery>
+    <Code>JEW</Code>
+    <Full>Jewel</Full>
+    <RepName>jewel</RepName>
+  </Jewelery>
+  <Jewelery>
+    <Code>BEL</Code>
+    <Full>Belt</Full>
+    <RepName>belt</RepName>
+  </Jewelery>
+  <Jewelery>
+    <Code>LRI</Code>
+    <Full>Left Ring</Full>
+    <RepName>ring</RepName>
+  </Jewelery>
+  <Jewelery>
+    <Code>RRI</Code>
+    <Full>Right Ring</Full>
+    <RepName>ring</RepName>
+  </Jewelery>
+  <Jewelery>
+    <Code>LWR</Code>
+    <Full>Left Wrist</Full>
+    <RepName>bracer</RepName>
+  </Jewelery>
+  <Jewelery>
+    <Code>RWR</Code>
+    <Full>Right Wrist</Full>
+    <RepName>bracer</RepName>
+  </Jewelery>
+  <Jewelery>
+    <Code>MYT</Code>
+    <Full>Mythirian</Full>
+    <RepName>myth</RepName>
+  </Jewelery>
+</Jeweleries>

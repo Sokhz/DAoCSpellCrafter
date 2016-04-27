@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Armors>
+  <Armor>
+    <Code>TOR</Code>
+    <Full>Torso</Full>
+    <RepName>chest</RepName>
+  </Armor>
+  <Armor>
+    <Code>ARM</Code>
+    <Full>Arms</Full>
+    <RepName>arms</RepName>
+  </Armor>
+  <Armor>
+    <Code>HEA</Code>
+    <Full>Head</Full>
+    <RepName>helm</RepName>
+  </Armor>
+  <Armor>
+    <Code>LEG</Code>
+    <Full>Legs</Full>
+    <RepName>legs</RepName>
+  </Armor>
+  <Armor>
+    <Code>HAN</Code>
+    <Full>Hands</Full>
+    <RepName>hands</RepName>
+  </Armor>
+  <Armor>
+    <Code>FEE</Code>
+    <Full>Feet</Full>
+    <RepName>boots</RepName>
+  </Armor>
+</Armors>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resists>
+  <Resist>
+    <Code>BOD</Code>
+    <Full>Body</Full>
+    <Order>1</Order>
+    <GemName>Dusty shielding jewel</GemName>
+    <GemCode>130280</GemCode>
+    <Agent>K</Agent>
+  </Resist>
+  <Resist>
+    <Code>COL</Code>
+    <Full>Cold</Full>
+    <Order>2</Order>
+    <GemName>Icy shielding jewel</GemName>
+    <GemCode>130180</GemCode>
+    <Agent>C</Agent>
+  </Resist>
+  <Resist>
+    <Code>HEA</Code>
+    <Full>Heat</Full>
+    <Order>3</Order>
+    <GemName>Heated shielding jewel</GemName>
+    <GemCode>130200</GemCode>
+    <Agent>E</Agent>
+  </Resist>
+  <Resist>
+    <Code>ENE</Code>
+    <Full>Energy</Full>
+    <Order>4</Order>
+    <GemName>Light shielding jewel</GemName>
+    <GemCode>130220</GemCode>
+    <Agent>H</Agent>
+  </Resist>
+  <Resist>
+    <Code>MAT</Code>
+    <Full>Matter</Full>
+    <Order>5</Order>
+    <GemName>Earthen shielding jewel</GemName>
+    <GemCode>130160</GemCode>
+    <Agent>J</Agent>
+  </Resist>
+  <Resist>
+    <Code>SPI</Code>
+    <Full>Spirit</Full>
+    <Order>6</Order>
+    <GemName>Vapor shielding jewel</GemName>
+    <GemCode>130260</GemCode>
+    <Agent>I</Agent>
+  </Resist>
+  <Resist>
+    <Code>CRU</Code>
+    <Full>Crush</Full>
+    <Order>7</Order>
+    <GemName>Fiery shielding jewel</GemName>
+    <GemCode>130300</GemCode>
+    <Agent>B</Agent>
+  </Resist>
+  <Resist>
+    <Code>THR</Code>
+    <Full>Thrust</Full>
+    <Order>8</Order>
+    <GemName>Airy shielding jewel</GemName>
+    <GemCode>130240</GemCode>
+    <Agent>A</Agent>
+  </Resist>
+  <Resist>
+    <Code>SLA</Code>
+    <Full>Slash</Full>
+    <Order>9</Order>
+    <GemName>Watery shielding jewel</GemName>
+    <GemCode>130320</GemCode>
+    <Agent>F</Agent>
+  </Resist>
+</Resists>

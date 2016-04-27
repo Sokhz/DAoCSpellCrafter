@@ -1,0 +1,51 @@
+﻿<telerik:RadWindow x:Class="DaocSpellCraftCalculator.Views.I_ReportViewer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:tr="http://schemas.telerik.com/wpf"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             CanMove="false"      
+             ResizeMode="NoResize"
+             HideMaximizeButton="true"      
+             HideMinimizeButton="true"
+             WindowStartupLocation="CenterOwner"
+             Height="700" Width="800"
+             Header="{Binding Title}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="15" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+
+        <tr:ReportViewer Grid.Row="0" x:Name="Chp_ReportViewer" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                         ReportSource="{Binding SourceReport}" 
+                         ZoomMode="PageWidth"
+                         >
+
+        </tr:ReportViewer>
+
+        <Grid Grid.Row="2" Margin="20,0,20,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <telerik:RadButton Grid.Column="1" Command="{Binding SaveForumCommand}" Content="Save to ClipBoard"/>
+            <telerik:RadButton Grid.Column="3" Command="{Binding SaveTxtCommand}" Content="Save as TXT"/>
+            <telerik:RadButton Grid.Column="5" Command="{Binding SavePdfCommand}" Content="Save as PDF"/>
+            <telerik:RadButton Grid.Column="7" Command="telerik:WindowCommands.Close" Content="Close"/>
+        </Grid>
+
+    </Grid>
+</telerik:RadWindow>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MythicalBonuses>
+  <MythicalBonus>
+    <Code>CROW</Code>
+    <Full>Mythical Crowd Control Reduction</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>REGM</Code>
+    <Full>Mythical Power Regen</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>REGL</Code>
+    <Full>Mythical Health Regen</Full>
+    <LevelDividedBy>1</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>DPS</Code>
+    <Full>Mythical DPS</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>DMGCONV</Code>
+    <Full>Mythical Damage Conversion</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>ENDREG</Code>
+    <Full>Mythical Endurance Regen</Full>
+    <LevelDividedBy>5</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>RP</Code>
+    <Full>Mythical Realm Point</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>BP</Code>
+    <Full>Mythical Bounties Points</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>GOLD</Code>
+    <Full>Mythical Coin</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>XP</Code>
+    <Full>Mythical Experience</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>EVADE</Code>
+    <Full>Mythical Evade</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>CONC</Code>
+    <Full>Mythical Concentration</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>PARRY</Code>
+    <Full>Mythical Parry</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>BLOCK</Code>
+    <Full>Mythical Block</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>PHYD</Code>
+    <Full>Mythical Physical Defense</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>FOCUS</Code>
+    <Full>Mythical Spell Increase</Full>
+    <LevelDividedBy>5</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>SAFEFALL</Code>
+    <Full>Mythical Safe Fall</Full>
+    <LevelDividedBy>1</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>ENC</Code>
+    <Full>Mythical Encumbrance</Full>
+    <LevelDividedBy>1</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>ESSR</Code>
+    <Full>Mythical Essence Resist</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>SIEG</Code>
+    <Full>Mythical Siege Damage Ablative</Full>
+    <LevelDividedBy>1</LevelDividedBy>
+  </MythicalBonus>
+  <MythicalBonus>
+    <Code>SIEGS</Code>
+    <Full>Mythical Siege Speed</Full>
+    <LevelDividedBy>1</LevelDividedBy>
+  </MythicalBonus>
+</MythicalBonuses>

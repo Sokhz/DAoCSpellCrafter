@@ -1,0 +1,43 @@
+﻿<telerik:RadWindow x:Class="DaocSpellCraftCalculator.Views.I_EditStats"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:Behavior="clr-namespace:DaocSpellCraftCalculator.Tools.Behavior"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             CanMove="false"      
+             ResizeMode="NoResize"
+             HideMaximizeButton="true"      
+             HideMinimizeButton="true"
+             WindowStartupLocation="CenterOwner"
+             Height="400" Width="300" 
+             >
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <telerik:RadListBox ItemsSource="{Binding LstEditStats}">
+            <telerik:RadListBox.ItemTemplate>
+                <DataTemplate>
+                    <CheckBox IsChecked="{Binding IsImportant}" Content="{Binding Stat.Full}" />
+                </DataTemplate>
+            </telerik:RadListBox.ItemTemplate>
+        </telerik:RadListBox>
+
+        <Grid Grid.Row="9" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <telerik:RadButton Grid.Column="1" Command="{Binding CloseEditLstCommand}" Content="Close"/>
+        </Grid>
+
+    </Grid>
+</telerik:RadWindow>

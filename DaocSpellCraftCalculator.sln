@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaocSpellCraftCalculator", "DaocSpellCraftCalculator\DaocSpellCraftCalculator.csproj", "{A31BEE3A-5084-48CD-8F6B-36AFF6C07051}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DAoCSpellCraftCalculatorInstaller", "DAoCSpellCraftCalculatorInstaller\DAoCSpellCraftCalculatorInstaller.vdproj", "{80BA319C-C0F0-41D5-98B9-CA0EE76BECE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A31BEE3A-5084-48CD-8F6B-36AFF6C07051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31BEE3A-5084-48CD-8F6B-36AFF6C07051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31BEE3A-5084-48CD-8F6B-36AFF6C07051}.Debug|x86.ActiveCfg = Debug|x86
+		{A31BEE3A-5084-48CD-8F6B-36AFF6C07051}.Debug|x86.Build.0 = Debug|x86
+		{A31BEE3A-5084-48CD-8F6B-36AFF6C07051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31BEE3A-5084-48CD-8F6B-36AFF6C07051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31BEE3A-5084-48CD-8F6B-36AFF6C07051}.Release|x86.ActiveCfg = Release|x86
+		{A31BEE3A-5084-48CD-8F6B-36AFF6C07051}.Release|x86.Build.0 = Release|x86
+		{80BA319C-C0F0-41D5-98B9-CA0EE76BECE2}.Debug|Any CPU.ActiveCfg = Debug
+		{80BA319C-C0F0-41D5-98B9-CA0EE76BECE2}.Debug|x86.ActiveCfg = Debug
+		{80BA319C-C0F0-41D5-98B9-CA0EE76BECE2}.Release|Any CPU.ActiveCfg = Release
+		{80BA319C-C0F0-41D5-98B9-CA0EE76BECE2}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="DaocSpellCraftCalculator.Views.Uc_BonusItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             mc:Ignorable="d" 
+             >
+
+
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="booleanToVisibilityConverter" />
+    </UserControl.Resources>
+
+
+    <Grid Margin="0,0,0,4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.75*"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="0.25*"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <telerik:RadComboBox ItemsSource="{Binding LstTypeBonuses}" 
+                             SelectedValue="{Binding TypeBonus}"
+                             SelectedValuePath="Code"
+                             EmptyText="Select a type"
+                             DisplayMemberPath="Full"
+                             ClearSelectionButtonVisibility="Visible"
+                             ClearSelectionButtonContent="Clear"
+        >
+            <telerik:RadComboBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel />
+                </ItemsPanelTemplate>
+            </telerik:RadComboBox.ItemsPanel>
+        </telerik:RadComboBox>
+
+        <telerik:RadComboBox Grid.Column="2" 
+                             ItemsSource="{Binding LstCraftBonuses}" 
+                             SelectedValue="{Binding Value}"
+                             DisplayMemberPath="Value"
+                             SelectedValuePath="Value"
+                             ClearSelectionButtonVisibility="Visible"
+                             ClearSelectionButtonContent="Clear"
+                             IsEnabled="{Binding IsValueEnabled, Mode=OneWay}"
+                             Visibility="{Binding IsNotLoot, Converter={StaticResource booleanToVisibilityConverter}}"
+        >
+            <telerik:RadComboBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel />
+                </ItemsPanelTemplate>
+            </telerik:RadComboBox.ItemsPanel>
+        </telerik:RadComboBox>
+
+        <TextBox Grid.Column="2" MaxLength="2" Text="{Binding Value, UpdateSourceTrigger=PropertyChanged, TargetNullValue=''}" 
+                 Visibility="{Binding IsLoot, Converter={StaticResource booleanToVisibilityConverter}}"
+                 IsEnabled="{Binding IsTypeSelected, Mode=OneWay}"
+                 />
+
+        <telerik:RadComboBox Grid.Column="4" 
+                             ItemsSource="{Binding LstBonuses}" 
+                             SelectedValue="{Binding Bonus}"
+                             SelectedValuePath="Code"
+                             EmptyText="Select a bonus"
+                             DisplayMemberPath="Full"
+                             ClearSelectionButtonVisibility="Visible"
+                             ClearSelectionButtonContent="Clear"
+                             IsEnabled="{Binding IsBonusEnabled}"
+        >
+            <telerik:RadComboBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel />
+                </ItemsPanelTemplate>
+            </telerik:RadComboBox.ItemsPanel>
+        </telerik:RadComboBox>
+
+    </Grid>
+
+</UserControl>

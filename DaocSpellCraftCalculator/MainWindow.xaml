@@ -1,0 +1,1157 @@
+﻿<Window
+        x:Class="DaocSpellCraftCalculator.MainWindow"
+        x:Name="I_MainWindow" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+        xmlns:view="clr-namespace:DaocSpellCraftCalculator.Views"
+        xmlns:conv="clr-namespace:DaocSpellCraftCalculator.Tools.Binding"
+        Title="DAoC v1.118 Xylene's SpellCraft Calculator" 
+        WindowStartupLocation="CenterScreen" WindowState="Maximized" Icon="Images/Daoc.ico"
+        DataContext="{Binding Source={StaticResource ServiceLocator}, Path=MainVM}"
+        MinHeight="768" MinWidth="1024" Loaded="I_MainWindow_Loaded">
+
+
+    <Window.Resources>
+        <conv:StatsCapConverter x:Key="statsCapConverter" />
+        <BooleanToVisibilityConverter x:Key="booleanToVisibilityConverter" />
+        <conv:BooleanToBrushConverter x:Key="booleanToBrushConverter" />
+        <conv:BooleanToFontStyleConverter x:Key="booleanToFontStyleConverter" />
+        <conv:BooleanToBoldConverter x:Key="booleanToBoldConverter" />
+        <conv:SlotNameConverter x:Key="slotNameConverter" />
+    </Window.Resources>
+
+    <Window.InputBindings>
+        <KeyBinding Command="{Binding CreateTemplateCommand}" Key="N" Modifiers="Control"/>
+        <KeyBinding Command="{Binding OpenCommand}" Key="O" Modifiers="Control"/>
+        <KeyBinding Command="{Binding SaveCommand}" Key="S" Modifiers="Control"/>
+    </Window.InputBindings>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Region Barre d'action principale-->
+        <Grid Grid.Row="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <telerik:RadToolBar Grid.Column="0">
+                <Button ToolTip="New Template" Command="{Binding CreateTemplateCommand}" >
+                    <Image Source="/Images/new.png" Height="32" Width="32"/>
+                </Button>
+                <Button ToolTip="Open Template" Command="{Binding OpenCommand}">
+                    <Image Source="/Images/open.png" Height="32" Width="32"/>
+                </Button>
+                <Button ToolTip="Save" Command="{Binding SaveCommand}">
+                    <Image Source="/Images/save.png" Height="32" Width="32"/>
+                </Button>
+                <Button ToolTip="Save As" Command="{Binding SaveAsCommand}">
+                    <Image Source="/Images/saveas.png" Height="32" Width="32"/>
+                </Button>
+            </telerik:RadToolBar>
+
+            <telerik:RadToolBar Grid.Column="1">
+                <Button ToolTip="Options" Command="{Binding ShowOptionsCommand}">
+                    <Image Source="/Images/options.png" Height="32" Width="32"/>
+                </Button>
+            </telerik:RadToolBar>
+
+            <telerik:RadToolBar Grid.Column="2">
+                <Button ToolTip="Full Report" Command="{Binding FullReportCommand}">
+                    <Image Source="/Images/cr.png" Height="32" Width="32"/>
+                </Button>
+                <Button ToolTip="Simplified Report" Command="{Binding SimplifiedReportCommand}">
+                    <Image Source="/Images/crs.png" Height="32" Width="32"/>
+                </Button>
+                <Button ToolTip="Gems List" Command="{Binding GemListReportCommand}">
+                    <Image Source="/Images/report_gem.png" Height="32" Width="32"/>
+                </Button>
+                <Button ToolTip="Materials List" Command="{Binding GemMaterialsReportCommand}">
+                    <Image Source="/Images/report_mat.png" Height="32" Width="32"/>
+                </Button>
+            </telerik:RadToolBar>
+
+            <telerik:RadToolBar Grid.Column="3">
+                <Button ToolTip="Clear Craft" Command="{Binding SelectedTemplate.ClearCraftCommand}">
+                    <Image Source="/Images/clear.png" Height="32" Width="32"/>
+                </Button>
+
+                <Button ToolTip="Set Macros" Command="{Binding SelectedTemplate.SetMacrosCommand}">
+                    <Image Source="/Images/macros.png" Height="32" Width="32"/>
+                </Button>
+            </telerik:RadToolBar>
+
+            <telerik:RadToolBar Grid.Column="4">
+                <Button ToolTip="About" Command="{Binding ShowAboutCommand}">
+                    <Image Source="/Images/about.png" Height="32" Width="32"/>
+                </Button>
+            </telerik:RadToolBar>
+
+            <telerik:RadToolBar Grid.Column="5">
+            </telerik:RadToolBar>
+
+        </Grid>
+
+        <!--End Region-->
+
+        <!--Region Contenu-->
+        <Grid Grid.Row="1">
+            <telerik:RadTabControl Margin="2"  
+                                   SelectedItemRemoveBehaviour="SelectPrevious"
+                                   ItemsSource="{Binding LstTemplates}" 
+                                   SelectedItem="{Binding SelectedTemplate}" 
+                                   ItemContainerStyle="{StaticResource ClosableStyle}"
+                                   DisplayMemberPath="Name"
+                                   IsContentPreserved ="True"
+                                   >
+                <telerik:RadTabControl.ContentTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" MinWidth="220"/>
+                                <ColumnDefinition Width="4*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+
+                                    <telerik:RadExpander IsExpanded="True" Header="Character">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="50"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="24"/>
+                                                <RowDefinition Height="24"/>
+                                                <RowDefinition Height="24"/>
+                                                <RowDefinition Height="24"/>
+                                                <RowDefinition Height="24"/>
+                                                <RowDefinition Height="24"/>
+                                            </Grid.RowDefinitions>
+
+                                            <TextBlock Text="Name :" HorizontalAlignment="Right" />
+                                            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged, TargetNullValue=''}" Grid.Column="1" MaxLength="100" Margin="2"/>
+
+                                            <TextBlock Text="Realm :" HorizontalAlignment="Right" Grid.Row="1" />
+                                            <telerik:RadComboBox ItemsSource="{Binding LstRealms}" SelectedValue="{Binding Realm}" EmptyText="Select a realm" 
+                                                             DisplayMemberPath="Full"
+                                                             SelectedValuePath="Code"
+                                                             Grid.Row="1" Grid.Column="1" Margin="2" >
+                                                <telerik:RadComboBox.ItemsPanel>
+                                                    <ItemsPanelTemplate>
+                                                        <VirtualizingStackPanel />
+                                                    </ItemsPanelTemplate>
+                                                </telerik:RadComboBox.ItemsPanel>
+                                            </telerik:RadComboBox>
+
+                                            <TextBlock Text="Class :" HorizontalAlignment="Right" Grid.Row="2" />
+                                            <telerik:RadComboBox ItemsSource="{Binding LstClasses}" SelectedValue="{Binding Class}" EmptyText="Select a class" 
+                                                             DisplayMemberPath="Full"
+                                                             SelectedValuePath="Code"    
+                                                             Grid.Row="2" Grid.Column="1" Margin="2" >
+                                                <telerik:RadComboBox.ItemsPanel>
+                                                    <ItemsPanelTemplate>
+                                                        <VirtualizingStackPanel />
+                                                    </ItemsPanelTemplate>
+                                                </telerik:RadComboBox.ItemsPanel>
+                                            </telerik:RadComboBox>
+
+                                            <TextBlock Text="Race :" HorizontalAlignment="Right" Grid.Row="3" />
+                                            <telerik:RadComboBox ItemsSource="{Binding LstRaces}" SelectedValue="{Binding Race}" EmptyText="Select a race" 
+                                                             DisplayMemberPath="Full"
+                                                             SelectedValuePath="Code"    
+                                                             Grid.Row="3" Grid.Column="1" Margin="2" >
+                                                <telerik:RadComboBox.ItemsPanel>
+                                                    <ItemsPanelTemplate>
+                                                        <VirtualizingStackPanel />
+                                                    </ItemsPanelTemplate>
+                                                </telerik:RadComboBox.ItemsPanel>
+                                            </telerik:RadComboBox>
+
+                                            <TextBlock Text="Level :" HorizontalAlignment="Right" Grid.Row="4" />
+                                            <TextBox Text="{Binding Level, UpdateSourceTrigger=PropertyChanged, TargetNullValue=''}" Grid.Row="4" Grid.Column="1" MaxLength="2" Margin="2"/>
+
+                                            <TextBlock Text="Rank :" HorizontalAlignment="Right" Grid.Row="5" />
+                                            <TextBox Text="{Binding RealmRank, UpdateSourceTrigger=PropertyChanged, TargetNullValue=''}" Grid.Row="5" Grid.Column="1" MaxLength="2" Margin="2"/>
+
+                                        </Grid>
+
+                                    </telerik:RadExpander>
+
+                                    <telerik:RadExpander IsExpanded="True" Grid.Row="1">
+                                        <telerik:RadExpander.Header>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="30"/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <TextBlock Text="Stats" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12"/>
+                                                <Button Command="{Binding EditLstStatsCommand}" Grid.Column="1" ToolTip="Edit Stats List" Margin="2">
+                                                    <Image Source="/Images/edit.png" />
+                                                </Button>
+
+                                            </Grid>
+                                        </telerik:RadExpander.Header>
+
+                                        <telerik:RadListBox ItemsSource="{Binding LstCaracs}" FontSize="10" MouseDoubleClick="OnStatDoubleClick" SelectionMode="Single">
+                                            <telerik:RadListBox.ItemContainerStyle>
+                                                <Style TargetType="{x:Type telerik:RadListBoxItem}" BasedOn="{StaticResource RadListBoxItemStyle}">
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding IsImportant}" Value="False">
+                                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </telerik:RadListBox.ItemContainerStyle>
+                                            <telerik:RadListBox.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Grid Margin="20,0,0,0" ToolTip="{Binding Resume, Mode=OneWay}">
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="Auto"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                            <ColumnDefinition Width="Auto"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                        </Grid.ColumnDefinitions>
+
+
+                                                        <!--Nom de la stat-->
+                                                        <TextBlock Text="{Binding Stat.Full}" Grid.Column="1" />
+
+
+                                                        <!--Valeur actuelle-->
+                                                        <TextBlock Text="{Binding Value}" Grid.Column="2" HorizontalAlignment="Right"/>
+
+
+                                                        <!--Séparateur-->
+                                                        <TextBlock Text="/" Grid.Column="3" />
+
+
+                                                        <!--Valeur Max-->
+                                                        <TextBlock Text="{Binding MaxValue}" Grid.Column="4" HorizontalAlignment="Left"/>
+
+
+                                                        <!--Diff Max-->
+                                                        <TextBlock Text="{Binding Diff}" Foreground="{Binding Diff, Converter={StaticResource ResourceKey=statsCapConverter}}" 
+                                                               Grid.Column="5"  />
+
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </telerik:RadListBox.ItemTemplate>
+                                        </telerik:RadListBox>
+
+
+
+
+                                    </telerik:RadExpander>
+
+
+                                    <telerik:RadExpander IsExpanded="True" Grid.Row="2">
+                                        <telerik:RadExpander.Header>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="30"/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <TextBlock Text="Resists" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12"/>
+                                                <CheckBox IsChecked="{Binding IncludeRaciales}" Grid.Column="1" ToolTip="Include Raciales Resist" Margin="2" />
+
+                                            </Grid>
+                                        </telerik:RadExpander.Header>
+
+                                        <telerik:RadListBox ItemsSource="{Binding LstResists}" FontSize="10" MouseDoubleClick="OnResistDoubleClick" SelectionMode="Single">
+
+                                            <telerik:RadListBox.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Grid Margin="20,0,0,0">
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                            <ColumnDefinition Width="Auto"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                        </Grid.ColumnDefinitions>
+
+                                                        <!--Nom de la resist-->
+                                                        <TextBlock Text="{Binding Stat.Full}" />
+
+                                                        <!--Valeur actuelle-->
+                                                        <TextBlock Text="{Binding Value}" Grid.Column="1" HorizontalAlignment="Right"/>
+
+                                                        <!--Séparateur-->
+                                                        <TextBlock Text="/" Grid.Column="2" />
+
+                                                        <!--Valeur Max-->
+                                                        <TextBlock Text="{Binding MaxValue}" Grid.Column="3" HorizontalAlignment="Left"/>
+
+                                                        <!--Diff Max-->
+                                                        <TextBlock Text="{Binding Diff}" Foreground="{Binding Diff, Converter={StaticResource ResourceKey=statsCapConverter}}" 
+                                                               Grid.Column="4" />
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </telerik:RadListBox.ItemTemplate>
+                                        </telerik:RadListBox>
+
+                                    </telerik:RadExpander>
+
+                                    <telerik:RadExpander IsExpanded="True" Grid.Row="3">
+                                        <telerik:RadExpander.Header>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <TextBlock Text="Bonuses" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12"/>
+
+                                            </Grid>
+                                        </telerik:RadExpander.Header>
+
+                                        <telerik:RadListBox ItemsSource="{Binding LstBonuses}" FontSize="10" MouseDoubleClick="OnBonusesDoubleClick" SelectionMode="Single">
+                                            <telerik:RadListBox.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Grid Margin="20,0,0,0">
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                            <ColumnDefinition Width="Auto"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                        </Grid.ColumnDefinitions>
+
+                                                        <!--Nom du bonus-->
+                                                        <TextBlock Text="{Binding Stat.Full}" Grid.Column="0" />
+
+                                                        <!--Valeur actuelle-->
+                                                        <TextBlock Text="{Binding Value}" Grid.Column="1" HorizontalAlignment="Right"/>
+
+                                                        <!--Séparateur-->
+                                                        <TextBlock Text="/" Grid.Column="2" />
+
+                                                        <!--Valeur Max-->
+                                                        <TextBlock Text="{Binding MaxValue}" Grid.Column="3" HorizontalAlignment="Left"/>
+
+                                                        <!--Diff Max-->
+                                                        <TextBlock Text="{Binding Diff}" Foreground="{Binding Diff, Converter={StaticResource ResourceKey=statsCapConverter}}" 
+                                                               Grid.Column="4"  />
+
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </telerik:RadListBox.ItemTemplate>
+                                        </telerik:RadListBox>
+
+                                    </telerik:RadExpander>
+
+                                    <telerik:RadExpander IsExpanded="True" Grid.Row="4">
+                                        <telerik:RadExpander.Header>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="30"/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <TextBlock Text="Skills" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12"/>
+                                                <Button Command="{Binding EditLstSkillsCommand}" Grid.Column="1" ToolTip="Edit Skills List" Margin="2">
+                                                    <Image Source="/Images/edit.png" />
+                                                </Button>
+
+                                            </Grid>
+                                        </telerik:RadExpander.Header>
+
+                                        <telerik:RadListBox ItemsSource="{Binding LstSkills}" FontSize="10" MouseDoubleClick="OnSkillDoubleClick" SelectionMode="Single">
+                                            <telerik:RadListBox.ItemContainerStyle>
+                                                <Style TargetType="{x:Type telerik:RadListBoxItem}" BasedOn="{StaticResource RadListBoxItemStyle}">
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding IsImportant}" Value="False">
+                                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </telerik:RadListBox.ItemContainerStyle>
+                                            <telerik:RadListBox.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Grid Margin="20,0,0,0">
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="Auto"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                            <ColumnDefinition Width="Auto"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                        </Grid.ColumnDefinitions>
+
+                                                        <!--Nom du skill-->
+                                                        <TextBlock Text="{Binding Stat.Full}" Grid.Column="1" />
+
+                                                        <!--Valeur actuelle-->
+                                                        <TextBlock Text="{Binding Value}" Grid.Column="2" HorizontalAlignment="Right"/>
+
+                                                        <!--Séparateur-->
+                                                        <TextBlock Text="/" Grid.Column="3" />
+
+                                                        <!--Valeur Max-->
+                                                        <TextBlock Text="{Binding MaxValue}" Grid.Column="4" HorizontalAlignment="Left"/>
+
+                                                        <!--Diff Max-->
+                                                        <TextBlock Text="{Binding Diff}" Foreground="{Binding Diff, Converter={StaticResource ResourceKey=statsCapConverter}}" 
+                                                               Grid.Column="5"  />
+
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </telerik:RadListBox.ItemTemplate>
+                                        </telerik:RadListBox>
+
+
+
+
+                                    </telerik:RadExpander>
+
+                                </Grid>
+                            </ScrollViewer>
+
+                            <Grid Grid.Column="1" Margin="40">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition  Height="*"/>
+                                    <RowDefinition  Height="70"/>
+                                    <RowDefinition  Height="*"/>
+                                    <RowDefinition  Height="70"/>
+                                    <RowDefinition  Height="*"/>
+                                    <RowDefinition  Height="70"/>
+                                    <RowDefinition  Height="*"/>
+                                    <RowDefinition  Height="70"/>
+                                    <RowDefinition  Height="*"/>
+                                    <RowDefinition  Height="70"/>
+                                    <RowDefinition  Height="*"/>
+                                    <RowDefinition  Height="70"/>
+                                    <RowDefinition  Height="*"/>
+                                    <RowDefinition  Height="70"/>
+                                    <RowDefinition  Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+
+                                <!--Torse-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding Torso.Name}" 
+                                                        Command="{Binding SetTorsoSelectedCommand}"
+                                                        FontStyle="{Binding Torso.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding Torso.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Torso.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Torso.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding Torso.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='TOR'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+                                <!--Collier-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding Necklace.Name}" 
+                                                        Command="{Binding SetNeckSelectedCommand}"
+                                                        FontStyle="{Binding Necklace.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding Necklace.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Necklace.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Necklace.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding Necklace.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='NEC'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+                                <!--Myth-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="1" Grid.Column="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding Myth.Name}" 
+                                                        Command="{Binding SetMythSelectedCommand}"
+                                                        FontStyle="{Binding Myth.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding Myth.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Myth.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Myth.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding Myth.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='MYT'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+                                <!--Cloack-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="1" Grid.Column="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding Cloak.Name}" 
+                                                        Command="{Binding SetCloakSelectedCommand}" 
+                                                        FontStyle="{Binding Cloak.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding Cloak.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Cloak.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Cloak.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding Cloak.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='CLO'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+                                <!--Head-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="1" Grid.Column="9" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding Head.Name}" 
+                                                        Command="{Binding SetHeadSelectedCommand}"
+                                                        FontStyle="{Binding Head.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding Head.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Head.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Head.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding Head.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='HEA'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+                                <!--Bras-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding Arms.Name}" 
+                                                        Command="{Binding SetArmsSelectedCommand}"
+                                                        FontStyle="{Binding Arms.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding Arms.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Arms.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Arms.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding Arms.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='ARM'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+                                <!--Bijou-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding Jewel.Name}" 
+                                                        Command="{Binding SetJewelSelectedCommand}"
+                                                        FontStyle="{Binding Jewel.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding Jewel.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Jewel.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Jewel.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding Jewel.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='JEW'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+
+                                <!--L Ring-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding LRing.Name}" 
+                                                        Command="{Binding SetLRingSelectedCommand}"
+                                                        FontStyle="{Binding LRing.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding LRing.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding LRing.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding LRing.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding LRing.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='LRI'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+                                <!--L Bracer-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="9" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding LWrist.Name}" 
+                                                        Command="{Binding SetLWristSelectedCommand}"
+                                                        FontStyle="{Binding LWrist.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding LWrist.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding LWrist.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding LWrist.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding LWrist.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='LWR'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+
+                                <!--Legs-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="11" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding Legs.Name}" 
+                                                        Command="{Binding SetLegsSelectedCommand}"
+                                                        FontStyle="{Binding Legs.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding Legs.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Legs.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Legs.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding Legs.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='LEG'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+                                <!--Hands-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="3" Grid.Column="9" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding Hands.Name}" 
+                                                        Command="{Binding SetHandsSelectedCommand}"
+                                                        FontStyle="{Binding Hands.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding Hands.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Hands.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Hands.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding Hands.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='HAN'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+                                <!--Belt-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="5" Grid.Column="9" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding Belt.Name}" 
+                                                        Command="{Binding SetBeltSelectedCommand}"
+                                                        FontStyle="{Binding Belt.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding Belt.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Belt.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Belt.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding Belt.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='BEL'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+                                <!--R. Ring-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="7" Grid.Column="9" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding RRing.Name}" 
+                                                        Command="{Binding SetRRingSelectedCommand}"
+                                                        FontStyle="{Binding RRing.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding RRing.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding RRing.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding RRing.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding RRing.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='RRI'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+                                <!--R. Wrist-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="9" Grid.Column="9" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding RWrist.Name}" 
+                                                        Command="{Binding SetRWristSelectedCommand}"
+                                                        FontStyle="{Binding RWrist.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding RWrist.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding RWrist.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding RWrist.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding RWrist.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='RWR'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+
+                                <!--Feet-->
+                                <telerik:RadRadioButton GroupName="slotGroup" Grid.Row="11" Grid.Column="9" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding Feet.Name}" 
+                                                        Command="{Binding SetFeetSelectedCommand}"
+                                                        FontStyle="{Binding Feet.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                        FontWeight="{Binding Feet.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                        MouseDoubleClick="OnSlotDoubleClick"
+                                                        >
+                                    <telerik:RadRadioButton.Style>
+                                        <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Feet.IsEquipedAndDefined}" Value="True">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Feet.IsEquipedAndDefined}" Value="False">
+                                                    <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </telerik:RadRadioButton.Style>
+                                    <TextBlock Text="{Binding Feet.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='FEE'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                </telerik:RadRadioButton>
+
+
+                                <Grid Grid.Row="13" Grid.Column="0" Grid.ColumnSpan="11">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <!--Main Hand-->
+                                    <telerik:RadRadioButton GroupName="slotGroup" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding MainHand.Name}" 
+                                                            Command="{Binding SetMainHandSelectedCommand}"
+                                                            FontStyle="{Binding MainHand.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                            FontWeight="{Binding MainHand.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                            MouseDoubleClick="OnSlotDoubleClick"
+                                                            >
+                                        <telerik:RadRadioButton.Style>
+                                            <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding MainHand.IsEquipedAndDefined}" Value="True">
+                                                        <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding MainHand.IsEquipedAndDefined}" Value="False">
+                                                        <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </telerik:RadRadioButton.Style>
+                                        <TextBlock Text="{Binding MainHand.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='MH'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                    </telerik:RadRadioButton>
+
+                                    <!--Left Hand-->
+                                    <telerik:RadRadioButton GroupName="slotGroup" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding OffHand.Name}" 
+                                                            Command="{Binding SetOffHandSelectedCommand}"
+                                                            FontStyle="{Binding OffHand.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                            FontWeight="{Binding OffHand.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                            MouseDoubleClick="OnSlotDoubleClick"
+                                                            >
+                                        <telerik:RadRadioButton.Style>
+                                            <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding OffHand.IsEquipedAndDefined}" Value="True">
+                                                        <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding OffHand.IsEquipedAndDefined}" Value="False">
+                                                        <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </telerik:RadRadioButton.Style>
+                                        <TextBlock Text="{Binding OffHand.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='OH'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                    </telerik:RadRadioButton>
+
+                                    <!--Two Hands-->
+                                    <telerik:RadRadioButton GroupName="slotGroup" Grid.Column="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding TwoHands.Name}" 
+                                                            Command="{Binding SetTwoHandsSelectedCommand}"
+                                                            FontStyle="{Binding TwoHands.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                            FontWeight="{Binding TwoHands.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                            MouseDoubleClick="OnSlotDoubleClick"
+                                                            >
+                                        <telerik:RadRadioButton.Style>
+                                            <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding TwoHands.IsEquipedAndDefined}" Value="True">
+                                                        <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding TwoHands.IsEquipedAndDefined}" Value="False">
+                                                        <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </telerik:RadRadioButton.Style>
+                                        <TextBlock Text="{Binding TwoHands.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='TWO'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                    </telerik:RadRadioButton>
+
+                                    <!--Range-->
+                                    <telerik:RadRadioButton GroupName="slotGroup" Grid.Column="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ToolTip="{Binding Range.Name}" 
+                                                            Command="{Binding SetRangeSelectedCommand}"
+                                                            FontStyle="{Binding Range.HasBonusDefined,  Converter={StaticResource booleanToFontStyleConverter}}"
+                                                            FontWeight="{Binding Range.HasBonusDefined, Converter={StaticResource booleanToBoldConverter}}"
+                                                            MouseDoubleClick="OnSlotDoubleClick"
+                                                            >
+                                        <telerik:RadRadioButton.Style>
+                                            <Style TargetType="{x:Type telerik:RadRadioButton}" BasedOn="{StaticResource RadRadioButtonStyle }">
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding Range.IsEquipedAndDefined}" Value="True">
+                                                        <Setter Property="Background" Value="{StaticResource ControlBackground_MouseOver}" />
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Range.IsEquipedAndDefined}" Value="False">
+                                                        <Setter Property="Background" Value="{StaticResource ControlBackground_Normal}" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </telerik:RadRadioButton.Style>
+                                        <TextBlock Text="{Binding Range.Name, Converter={StaticResource slotNameConverter}, ConverterParameter='RAN'}" TextWrapping="WrapWithOverflow" TextAlignment="Center" />
+                                    </telerik:RadRadioButton>
+
+
+                                </Grid>
+
+                                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Grid.Column="2" Grid.ColumnSpan="7" Grid.Row="2" Grid.RowSpan="11" >
+                                    <Border BorderBrush="{Binding SelectedItem.IsCraftInvalid, Converter={StaticResource booleanToBrushConverter}, TargetNullValue=White}" BorderThickness="2" Margin="20">
+                                        <Grid Visibility="{Binding HasSelectedItem, Converter={StaticResource booleanToVisibilityConverter}}" Margin="20">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="40"/>
+                                                <RowDefinition Height="24"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="30"/>
+                                                <RowDefinition Height="30"/>
+                                                <RowDefinition Height="30"/>
+                                                <RowDefinition Height="30"/>
+                                                <RowDefinition Height="30"/>
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions >
+                                                <ColumnDefinition Width="60"/>
+                                                <ColumnDefinition Width="10"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <StackPanel Grid.ColumnSpan="3" Orientation="Horizontal" VerticalAlignment="Center" Height="30">
+                                                <Button ToolTip="Load Item" Command="{Binding LoadItemCommand}">
+                                                    <Image Source="/Images/load_item.png" />
+                                                </Button>
+                                                <Button ToolTip="Save to Realm Items" Command="{Binding SaveRealmItemCommand}" Margin="10,0,0,0">
+                                                    <Image Source="/Images/save.png" />
+                                                </Button>
+                                                <Button ToolTip="Save to Shared Items" Command="{Binding SaveAllItemCommand}" Margin="10,0,0,0">
+                                                    <Image Source="/Images/saveas.png" />
+                                                </Button>
+                                                <Button ToolTip="Clear Item" Command="{Binding ClearItemCommand}" Margin="10,0,0,0">
+                                                    <Image Source="/Images/clear.png" />
+                                                </Button>
+                                            </StackPanel>
+
+
+                                            <!--Nom-->
+                                            <TextBlock Grid.Row="1" Text="Name :" HorizontalAlignment="Right"/>
+                                            <TextBox Text="{Binding SelectedItem.Name, UpdateSourceTrigger=PropertyChanged, TargetNullValue=''}" Grid.Row="1" Grid.Column="2" Margin="2"/>
+
+                                            <!--Level, AF et Crafté -->
+                                            <ScrollViewer VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Auto" Grid.Row="2"  Grid.ColumnSpan="3">
+                                                <Grid >
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="60"/>
+                                                        <ColumnDefinition Width="10"/>
+                                                        <ColumnDefinition Width="50"/>
+                                                        <ColumnDefinition Width="10"/>
+                                                        <ColumnDefinition Width="100"/>
+                                                        <ColumnDefinition Width="10"/>
+                                                        <ColumnDefinition Width="50"/>
+                                                        <ColumnDefinition Width="10"/>
+                                                        <ColumnDefinition Width="50"/>
+                                                        <ColumnDefinition Width="10"/>
+                                                        <ColumnDefinition Width="50"/>
+                                                        <ColumnDefinition Width="10"/>
+                                                        <ColumnDefinition Width="Auto"/>
+                                                        <ColumnDefinition Width="Auto"/>
+                                                        <ColumnDefinition Width="Auto"/>
+                                                        <ColumnDefinition Width="Auto"/>
+                                                    </Grid.ColumnDefinitions>
+
+                                                    <TextBlock Text="Level :" HorizontalAlignment="Right" />
+                                                    <TextBox Text="{Binding SelectedItem.Level, UpdateSourceTrigger=PropertyChanged, TargetNullValue=''}" MaxLength="2" Margin="2" Grid.Column="2"/>
+
+                                                    <TextBlock Text="Bonus Level :" HorizontalAlignment="Right" Grid.Column="4"/>
+                                                    <TextBox Text="{Binding SelectedItem.BonusLevel, UpdateSourceTrigger=PropertyChanged, TargetNullValue=''}" MaxLength="3" Margin="2" Grid.Column="6"/>
+
+                                                    <TextBlock Text="Equiped :" HorizontalAlignment="Right" Grid.Column="8"/>
+                                                    <CheckBox IsChecked="{Binding SelectedItem.IsEquiped}" Margin="2" Grid.Column="10" ></CheckBox>
+
+                                                    <TextBlock Text="Loot :" HorizontalAlignment="Right" Grid.Column="12" Width="50" Visibility="{Binding SelectedItem.NotIsJewelerySlot, Converter={StaticResource booleanToVisibilityConverter}}"/>
+                                                    <CheckBox IsChecked="{Binding SelectedItem.IsLoot}" Grid.Column="13" Width="50" Margin="10,2,2,2" Visibility="{Binding SelectedItem.NotIsJewelerySlot, Converter={StaticResource booleanToVisibilityConverter}}"/>
+
+                                                    <TextBlock Text="Legend. :" HorizontalAlignment="Right" Grid.Column="14" Width="50" Margin="10,0,0,0"  Visibility="{Binding SelectedItem.IsWeaponSlot, Converter={StaticResource booleanToVisibilityConverter}}"/>
+                                                    <CheckBox IsChecked="{Binding SelectedItem.IsLegendaryWeapon}" Grid.Column="15" Width="50" Margin="10,2,2,2" Visibility="{Binding SelectedItem.IsWeaponSlot, Converter={StaticResource booleanToVisibilityConverter}}"/>
+
+                                                </Grid>
+                                            </ScrollViewer>
+
+                                            <!--Charge-->
+                                            <TextBlock Grid.Row="3" Text="Charge :" HorizontalAlignment="Right" Height="24" Visibility="{Binding SelectedItem.IsNotLoot, Converter={StaticResource booleanToVisibilityConverter}}"/>
+                                            <StackPanel Grid.Row="3" Grid.Column="2" Orientation="Horizontal" Height="24" Visibility="{Binding SelectedItem.IsNotLoot, Converter={StaticResource booleanToVisibilityConverter}}" >
+                                                <TextBlock Text="{Binding SelectedItem.ChargeCraft, Mode=OneWay}" Margin="0,2,0,2"/>
+                                                <TextBlock Text=" / " Margin="0,2,0,2"/>
+                                                <TextBlock Text="{Binding SelectedItem.MaxChargeCraft, Mode=OneWay}" Margin="0,2,0,2"/>
+                                                <TextBlock Text="Overcharge is too high !" Foreground="Red" Visibility="{Binding SelectedItem.IsOverCharged, Converter={StaticResource booleanToVisibilityConverter}}"  Margin="20,2,0,2"/>
+                                            </StackPanel>
+
+                                            <!--Bonus 1-->
+                                            <TextBlock Grid.Row="5" Text="Bonus 1 :" HorizontalAlignment="Right" />
+                                            <view:Uc_BonusItem Grid.Row="5" Grid.Column="2" DataContext="{Binding SelectedItem.Bonus1}"/>
+
+                                            <!--Bonus 2-->
+                                            <TextBlock Grid.Row="6" Text="Bonus 2 :" HorizontalAlignment="Right" />
+                                            <view:Uc_BonusItem Grid.Row="6" Grid.Column="2" DataContext="{Binding SelectedItem.Bonus2}"/>
+
+                                            <!--Bonus 3-->
+                                            <TextBlock Grid.Row="7" Text="Bonus 3 :" HorizontalAlignment="Right" />
+                                            <view:Uc_BonusItem Grid.Row="7" Grid.Column="2" DataContext="{Binding SelectedItem.Bonus3}"/>
+
+                                            <!--Bonus 4-->
+                                            <TextBlock Grid.Row="8" Text="Bonus 4 :" HorizontalAlignment="Right" />
+                                            <view:Uc_BonusItem Grid.Row="8" Grid.Column="2" DataContext="{Binding SelectedItem.Bonus4}"/>
+
+
+                                            <Grid Grid.Row="9" Grid.ColumnSpan="3" Visibility="{Binding SelectedItem.ShowFithBonus, Converter={StaticResource booleanToVisibilityConverter}}">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="30"/>
+                                                </Grid.RowDefinitions>
+                                                <Grid.ColumnDefinitions >
+                                                    <ColumnDefinition Width="60"/>
+                                                    <ColumnDefinition Width="10"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
+
+
+                                                <!--Bonus 5-->
+                                                <TextBlock Grid.Row="0" Text="Bonus 5 :" HorizontalAlignment="Right" />
+                                                <telerik:RadComboBox Grid.Row="0" Grid.Column="2" Margin="0,0,0,4" 
+                                                                 ItemsSource="{Binding SelectedItem.FifthBonus.LstArmorBonuses}" 
+                                                                 SelectedValue="{Binding SelectedItem.SelectedFifthBonus}"
+                                                                 SelectedValuePath="Code"
+                                                                 EmptyText="Select a bonus"
+                                                                 DisplayMemberPath="Representation"
+                                                                 ClearSelectionButtonVisibility="Visible"
+                                                                 ClearSelectionButtonContent="Clear"
+                                                                 IsEnabled="{Binding IsFifthBonusEnable}"
+                                                                >
+                                                    <telerik:RadComboBox.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <VirtualizingStackPanel />
+                                                        </ItemsPanelTemplate>
+                                                    </telerik:RadComboBox.ItemsPanel>
+                                                </telerik:RadComboBox>
+
+                                                <!--Skin Head-->
+                                                <telerik:RadComboBox Grid.Row="0" Grid.Column="3" Margin="10,0,0,4" Width="120"
+                                                                 Visibility="{Binding SelectedItem.ShowSkinsAvalaible, Converter={StaticResource booleanToVisibilityConverter}}"
+                                                                 ItemsSource="{Binding SelectedItem.LstSkins}" 
+                                                                 SelectedItem="{Binding SelectedItem.SelectedSkinHead}"
+                                                                 EmptyText="Select a skin"
+                                                                 ClearSelectionButtonVisibility="Visible"
+                                                                 ClearSelectionButtonContent="Clear"
+                                                                 IsEnabled="{Binding SelectedItem.IsSkinsEnable}"
+                                                                >
+                                                    <telerik:RadComboBox.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <VirtualizingStackPanel />
+                                                        </ItemsPanelTemplate>
+                                                    </telerik:RadComboBox.ItemsPanel>
+                                                </telerik:RadComboBox>
+
+                                            </Grid>
+
+
+                                            <Grid x:Name="gridExtraBonus" Grid.Row="9" Grid.ColumnSpan="3" Visibility="{Binding SelectedItem.ShowExtraBonus, Converter={StaticResource booleanToVisibilityConverter}}">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="30"/>
+                                                    <RowDefinition Height="30"/>
+                                                    <RowDefinition Height="30"/>
+                                                    <RowDefinition Height="30"/>
+                                                    <RowDefinition Height="30"/>
+                                                    <RowDefinition Height="30"/>
+                                                    <RowDefinition Height="30"/>
+                                                    <RowDefinition Height="30"/>
+                                                    <RowDefinition Height="30"/>
+                                                </Grid.RowDefinitions>
+                                                <Grid.ColumnDefinitions >
+                                                    <ColumnDefinition Width="60"/>
+                                                    <ColumnDefinition Width="10"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <!--Bonus 5-->
+                                                <TextBlock Grid.Row="0" Text="Bonus 5 :" HorizontalAlignment="Right" />
+                                                <view:Uc_BonusItem Grid.Row="0" Grid.Column="2" IsEnabled="{Binding ElementName=gridExtraBonus, Path=DataContext.SelectedItem.NotIsLegendaryWeapon}" 
+                                                                   DataContext="{Binding SelectedItem.Bonus5}" />
+
+                                                <!--Bonus 6-->
+                                                <TextBlock Grid.Row="1" Text="Bonus 6 :" HorizontalAlignment="Right" />
+                                                <view:Uc_BonusItem Grid.Row="1" Grid.Column="2" IsEnabled="{Binding ElementName=gridExtraBonus, Path=DataContext.SelectedItem.NotIsLegendaryWeapon}" 
+                                                                   DataContext="{Binding SelectedItem.Bonus6}" />
+
+                                                <!--Bonus 7-->
+                                                <TextBlock Grid.Row="2" Text="Bonus 7 :" HorizontalAlignment="Right" />
+                                                <view:Uc_BonusItem Grid.Row="2" Grid.Column="2" IsEnabled="{Binding ElementName=gridExtraBonus, Path=DataContext.SelectedItem.NotIsLegendaryWeapon}" 
+                                                                   DataContext="{Binding SelectedItem.Bonus7}" />
+
+                                                <!--Bonus 8-->
+                                                <TextBlock Grid.Row="3" Text="Bonus 8 :" HorizontalAlignment="Right" Visibility="{Binding SelectedItem.IsLoot, Converter={StaticResource booleanToVisibilityConverter}}"/>
+                                                <view:Uc_BonusItem Grid.Row="3" Grid.Column="2" DataContext="{Binding SelectedItem.Bonus8}" Visibility="{Binding IsLoot, Converter={StaticResource booleanToVisibilityConverter}}"/>
+
+                                                <!--Bonus 9-->
+                                                <TextBlock Grid.Row="4" Text="Bonus 9 :" HorizontalAlignment="Right" Visibility="{Binding SelectedItem.IsLoot, Converter={StaticResource booleanToVisibilityConverter}}"/>
+                                                <view:Uc_BonusItem Grid.Row="4" Grid.Column="2" DataContext="{Binding SelectedItem.Bonus9}" Visibility="{Binding IsLoot, Converter={StaticResource booleanToVisibilityConverter}}"/>
+
+                                                <!--Bonus 10-->
+                                                <TextBlock Grid.Row="5" Text="Bonus 10 :" HorizontalAlignment="Right" Visibility="{Binding SelectedItem.IsLoot, Converter={StaticResource booleanToVisibilityConverter}}"/>
+                                                <view:Uc_BonusItem Grid.Row="5" Grid.Column="2" DataContext="{Binding SelectedItem.Bonus10}" Visibility="{Binding IsLoot, Converter={StaticResource booleanToVisibilityConverter}}"/>
+
+                                                <!--Effect 1-->
+                                                <TextBlock Grid.Row="7" Text="Effect 1 :" HorizontalAlignment="Right" />
+                                                <telerik:RadComboBox Grid.Row="7" Grid.Column="2" Margin="0,0,0,4"
+                                                                 ItemsSource="{Binding LstUses}"
+                                                                 SelectedValue="{Binding SelectedItem.Effect1, Mode=TwoWay}"
+                                                                 SelectedValuePath="Code"
+                                                                 DisplayMemberPath="FullDescription"
+                                                                 IsEditable="True"
+                                                                 >
+                                                    <telerik:RadComboBox.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <VirtualizingStackPanel />
+                                                        </ItemsPanelTemplate>
+                                                    </telerik:RadComboBox.ItemsPanel>
+                                                </telerik:RadComboBox>
+
+                                                <!--Effect 2-->
+                                                <TextBlock Grid.Row="8" Text="Effect 2 :" HorizontalAlignment="Right" />
+                                                <telerik:RadComboBox Grid.Row="8" Grid.Column="2" Margin="0,0,0,4"
+                                                                 ItemsSource="{Binding LstUses}"
+                                                                 SelectedValue="{Binding SelectedItem.Effect2, Mode=TwoWay}"
+                                                                 SelectedValuePath="Code"
+                                                                 DisplayMemberPath="FullDescription"
+                                                                 IsEditable="True"
+                                                                 >
+                                                    <telerik:RadComboBox.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <VirtualizingStackPanel />
+                                                        </ItemsPanelTemplate>
+                                                    </telerik:RadComboBox.ItemsPanel>
+                                                </telerik:RadComboBox>
+
+                                            </Grid>
+
+                                        </Grid>
+                                    </Border>
+                                </ScrollViewer>
+                            </Grid>
+
+                        </Grid>
+
+                    </DataTemplate>
+                </telerik:RadTabControl.ContentTemplate>
+
+            </telerik:RadTabControl>
+
+        </Grid>
+
+        <!--End Region-->
+    </Grid>
+</Window>
+
+    

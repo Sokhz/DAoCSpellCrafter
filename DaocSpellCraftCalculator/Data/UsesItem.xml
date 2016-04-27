@@ -1,0 +1,1545 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UsesItem>
+  <UseItem>
+    <Code>ABLAME200</Code>
+    <Full>Melee Ablative 50%</Full>
+    <Duration>10min</Duration>
+    <Value>200</Value>
+    <Timer>10</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ABLAMA200</Code>
+    <Full>Magic Ablative 50%</Full>
+    <Duration>10min</Duration>
+    <Value>200</Value>
+    <Timer>10</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ABLAME500</Code>
+    <Full>Melee Ablative 50%</Full>
+    <Duration>10min</Duration>
+    <Value>500</Value>
+    <Timer>10</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ABLAMEMA350</Code>
+    <Full>Magic and Melee Ablative 50%</Full>
+    <Duration>10min</Duration>
+    <Value>350</Value>
+    <Timer>10</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ABLAMEMA500</Code>
+    <Full>Magic and Melee Ablative 50%</Full>
+    <Duration>10min</Duration>
+    <Value>500</Value>
+    <Timer>10</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ARRO1</Code>
+    <Full>Arrogance</Full>
+    <Duration>15s</Duration>
+    <Value>+50 -50%</Value>
+    <Timer>15min</Timer>
+    <Description> Bonus to all stats +50, melee immunity 50%, then identical malus (-50 all stats, 50%melee weakness)</Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>DEBCAS</Code>
+    <Full>Casting speed debuff</Full>
+    <Duration>40s</Duration>
+    <Value>25%</Value>
+    <Timer>15min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>OMNHEA1</Code>
+    <Full>Omni Heal</Full>
+    <Duration>Instant</Duration>
+    <Value>10%</Value>
+    <Timer>1min30</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>MERESIST</Code>
+    <Full>Melee resist buff (primary)</Full>
+    <Duration>10min</Duration>
+    <Value>10%</Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>MARESIST</Code>
+    <Full>Magic resist buff (secondary)</Full>
+    <Duration>10min</Duration>
+    <Value>10%</Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>OMNHEA2</Code>
+    <Full>Omni Heal</Full>
+    <Duration>Instant</Duration>
+    <Value>15%</Value>
+    <Timer>12min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>STUFB</Code>
+    <Full>Stun Feedback</Full>
+    <Duration>10 min</Duration>
+    <Value>1</Value>
+    <Timer>12min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>DQBUFF</Code>
+    <Full>Buff dext quickness</Full>
+    <Duration>10min</Duration>
+    <Value>75</Value>
+    <Timer>1min30</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>POM1</Code>
+    <Full>Power regen</Full>
+    <Duration>10min</Duration>
+    <Value>3</Value>
+    <Timer>1min30</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ACUBUFF</Code>
+    <Full>Acuity buff</Full>
+    <Duration>10min</Duration>
+    <Value>75</Value>
+    <Timer>1min30</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>HEAL1</Code>
+    <Full>Heal charge</Full>
+    <Duration>Instant</Duration>
+    <Value>230</Value>
+    <Timer>1min30</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ILLU1</Code>
+    <Full>Illusion and Desorientation debuff</Full>
+    <Duration>1min</Duration>
+    <Value>10%</Value>
+    <Timer>1min30</Timer>
+    <Description>Melee to hit penality 10%  piercing penality 10% </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>OMNREG1</Code>
+    <Full>Omni Regen</Full>
+    <Duration>30s</Duration>
+    <Value>5%</Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>DCBUFF</Code>
+    <Full>Buff dext const</Full>
+    <Duration>10min</Duration>
+    <Value>50</Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>POW1</Code>
+    <Full>Power shoot</Full>
+    <Duration>Instant</Duration>
+    <Value>25%</Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>POW2</Code>
+    <Full>Power shoot</Full>
+    <Duration>Instant</Duration>
+    <Value>50%</Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ABLAMEMA200</Code>
+    <Full>Magic and Melee ablative 50%</Full>
+    <Duration>10min</Duration>
+    <Value>200</Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>SUMEL1</Code>
+    <Full>Summon an elemental ally who heal</Full>
+    <Duration>2min</Duration>
+    <Value></Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>SUMEL2</Code>
+    <Full>Summon an elemental ally who attack the target</Full>
+    <Duration>2min</Duration>
+    <Value></Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>HOTES</Code>
+    <Full>Heal over time plus essence resist buff</Full>
+    <Duration>30s</Duration>
+    <Value>5% +25</Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>SHE</Code>
+    <Full>Buff shear</Full>
+    <Duration>Instant</Duration>
+    <Value>Random</Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>RES1</Code>
+    <Full>All resist buff</Full>
+    <Duration>30s</Duration>
+    <Value>30</Value>
+    <Timer>10 min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>BOLT</Code>
+    <Full>Bolt the target</Full>
+    <Duration>Instant</Duration>
+    <Value></Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>MEZCUR</Code>
+    <Full>Cure the mezz from your target</Full>
+    <Duration>Instant</Duration>
+    <Value></Value>
+    <Timer>10min</Timer>
+    <Description> </Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ARRO2</Code>
+    <Full>Arrogance without penality</Full>
+    <Duration>30s</Duration>
+    <Value>+50 +10%</Value>
+    <Timer>12min30</Timer>
+    <Description>Gain a 10% immunity to melee damage and a 50 bonus to all stats with no subsequent penalty</Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>TEMP</Code>
+    <Full>Snare tempest</Full>
+    <Duration>30s</Duration>
+    <Value>25%</Value>
+    <Timer>10 min</Timer>
+    <Description>25% snare and 10% magic accuracy reduction</Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>AFBUFF</Code>
+    <Full>Armor factor buff</Full>
+    <Duration>10min</Duration>
+    <Value>75</Value>
+    <Timer>10min</Timer>
+    <Description></Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ABLAMA500</Code>
+    <Full>Magic ablative 50%</Full>
+    <Duration>10min</Duration>
+    <Value>500</Value>
+    <Timer>10min</Timer>
+    <Description></Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>HASBUFF</Code>
+    <Full>Buff attack speed (hast)</Full>
+    <Duration>10min</Duration>
+    <Value>20%</Value>
+    <Timer>10min</Timer>
+    <Description></Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>POM2</Code>
+    <Full>Mana regen buff</Full>
+    <Duration>10min</Duration>
+    <Value>4</Value>
+    <Timer>10min</Timer>
+    <Description></Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>CURNSSIL</Code>
+    <Full>Cure NS and Silence</Full>
+    <Duration>Instant</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Cure NS and silence from the target</Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>CureAll</Code>
+    <Full>Cure both poison and disease</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>10min</Timer>
+    <Description></Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>MSfeedback</Code>
+    <Full>Mezz and stun Feedback</Full>
+    <Duration>10min</Duration>
+    <Value></Value>
+    <Timer>10min</Timer>
+    <Description>Block the first magical mezz and the first magical stun receveid</Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>BDZ</Code>
+    <Full>Bedazzled</Full>
+    <Duration>30s</Duration>
+    <Value>15%</Value>
+    <Timer>10min</Timer>
+    <Description>15% melee fumble (pbaoe)</Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>BDZ2</Code>
+    <Full>Bedazzled magic</Full>
+    <Duration>30s</Duration>
+    <Value>35%</Value>
+    <Timer>10min</Timer>
+    <Description>35% mistcast chance</Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>DebuffP</Code>
+    <Full>Lore debuff</Full>
+    <Duration>45s</Duration>
+    <Value>5%</Value>
+    <Timer>10min</Timer>
+    <Description>Target is weaker at casting and resisting spells.</Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ROF1</Code>
+    <Full>DOT and Snare</Full>
+    <Duration>20s</Duration>
+    <Value>40</Value>
+    <Timer>15min</Timer>
+    <Description>Dot for 40 and 35%snare</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ROF2</Code>
+    <Full>Debuff DQ Proc</Full>
+    <Duration>5min</Duration>
+    <Value>20</Value>
+    <Timer>15min</Timer>
+    <Description>Cast a buff for 5 min, attacker got a chance to debuff d/Q from the target for 1min</Description>
+    <level></level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ROUW1</Code>
+    <Full>Snare</Full>
+    <Duration>15s</Duration>
+    <Value>40%</Value>
+    <Timer>15min</Timer>
+    <Description>PBAO snare (radius 350)</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>ROUW2</Code>
+    <Full>Reverse DOT HOT</Full>
+    <Duration>10min</Duration>
+    <Value>40</Value>
+    <Timer>15min</Timer>
+    <Description>DOT the target for 40 damage for 30s, self 30 HOT</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>CTR1</Code>
+    <Full>Damage conversion</Full>
+    <Duration>Passive</Duration>
+    <Value>5%</Value>
+    <Timer></Timer>
+    <Description>5% damage conversion</Description>
+    <level>41</level>
+    <EffectType>PASSIVE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>CTR2</Code>
+    <Full>Zone chant</Full>
+    <Duration>Passive</Duration>
+    <Value>-</Value>
+    <Timer>-</Timer>
+    <Description>Share for a maximum of 16 people your actives chants</Description>
+    <level>41</level>
+    <EffectType>PASSIVE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Brag1</Code>
+    <Full>Proc DD</Full>
+    <Duration>Instant</Duration>
+    <Value>75</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>PROC</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Brag2</Code>
+    <Full>Range</Full>
+    <Duration>5min</Duration>
+    <Value>5%</Value>
+    <Timer>15min</Timer>
+    <Description>5% spell range and piercing</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Fool1</Code>
+    <Full>Dot</Full>
+    <Duration>16s</Duration>
+    <Value>20</Value>
+    <Timer>Proc</Timer>
+    <Description>Body dot</Description>
+    <level>45</level>
+    <EffectType>PROC</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Snak1</Code>
+    <Full>Omnidrain</Full>
+    <Duration>proc</Duration>
+    <Value>100</Value>
+    <Timer>Proc</Timer>
+    <Description>Omni drain proc</Description>
+    <level>45</level>
+    <EffectType>PROC</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Snak2</Code>
+    <Full>Rev Shield</Full>
+    <Duration>30s</Duration>
+    <Value>25</Value>
+    <Timer>15min</Timer>
+    <Description>30s +25ABS Buff + reverse shield</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Batt1</Code>
+    <Full>WS buff</Full>
+    <Duration>1min</Duration>
+    <Value>10%</Value>
+    <Timer>Proc</Timer>
+    <Description>Increase to hit chance by 10</Description>
+    <level>45</level>
+    <EffectType>PROC</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Batt2</Code>
+    <Full>Debuff Melee ABS</Full>
+    <Duration>1min</Duration>
+    <Value>19</Value>
+    <Timer>15min</Timer>
+    <Description>PBAO 350radius -19ABS</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>SOG1</Code>
+    <Full>Tempest</Full>
+    <Duration>30s</Duration>
+    <Value>25%</Value>
+    <Timer>15min</Timer>
+    <Description>25%snare 10%accuracy debuff </Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>SOG2</Code>
+    <Full>Stealth Lore</Full>
+    <Duration>1min30</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Enya1</Code>
+    <Full>Fumble</Full>
+    <Duration>15s</Duration>
+    <Value>20%</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Cyc2</Code>
+    <Full>Intelligence</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Give you informations about your target</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Aten1</Code>
+    <Full>Item creation</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Create a spear in the inventory of the owner</Description>
+    <level>41</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Aten2</Code>
+    <Full>Reverse shield</Full>
+    <Duration>2min</Duration>
+    <Value>10</Value>
+    <Timer>15min</Timer>
+    <Description>Reverse damage shield + abs buff</Description>
+    <level>41</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Khao1</Code>
+    <Full>Reverse dot</Full>
+    <Duration>30s</Duration>
+    <Value>25</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Khao2</Code>
+    <Full>Disorientation and dot</Full>
+    <Duration>1min</Duration>
+    <Value>10%</Value>
+    <Timer>15min</Timer>
+    <Description>10%piercing debuff, 10%melee reduction, DOT</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Zo1</Code>
+    <Full>Summon minions</Full>
+    <Duration>30s</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Summon minions against your target</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Zo2</Code>
+    <Full>Pbaoe fumble and miscast</Full>
+    <Duration>30s</Duration>
+    <Value>25%</Value>
+    <Timer>15min</Timer>
+    <Description>25% chance to miss spell or melee</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>BOS1</Code>
+    <Full>Magical bolt</Full>
+    <Duration>Instant</Duration>
+    <Value>100</Value>
+    <Timer>15min</Timer>
+    <Description>Cast a bolt against your target</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>BOS2</Code>
+    <Full>Illusion</Full>
+    <Duration>1min</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Shape your target into a monster debuffing all caracs for 25</Description>
+    <level></level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Nig1</Code>
+    <Full>Money buff</Full>
+    <Duration>Passive</Duration>
+    <Value>5%</Value>
+    <Timer></Timer>
+    <Description>5% money drop increase</Description>
+    <level>45</level>
+    <EffectType>PASSIVE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Cerem1</Code>
+    <Full>Mezz Absorb</Full>
+    <Duration>10min</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Absorb the next mezz spell</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Cerem2</Code>
+    <Full>Stun absorb</Full>
+    <Duration>10min</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Absorb the next stun spell (magical only)</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Harpy1</Code>
+    <Full>Disarmement buff</Full>
+    <Duration>10min</Duration>
+    <Value>6s</Value>
+    <Timer>15min</Timer>
+    <Description>Cast a buff to give you a chance to disarm your opponent when you hit</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Harpy2</Code>
+    <Full>Disorientation</Full>
+    <Duration>1min</Duration>
+    <Value>10%</Value>
+    <Timer>15min</Timer>
+    <Description>Reduce by 10% your opponent chance to hit and piercing</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Wing1</Code>
+    <Full>Speed charge</Full>
+    <Duration>10min</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Wing2</Code>
+    <Full>Anti Style Shield</Full>
+    <Duration>5min</Duration>
+    <Value>75%</Value>
+    <Timer>15min</Timer>
+    <Description>Absorb 75% of the style damages</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Ogli1</Code>
+    <Full>Group HP Buff</Full>
+    <Duration>5min</Duration>
+    <Value>20%</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Ogli2</Code>
+    <Full>PBAOE Str/Cons debuff</Full>
+    <Duration>1min</Duration>
+    <Value>30</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Orion1</Code>
+    <Full>XP bonus buff</Full>
+    <Duration>Passive</Duration>
+    <Value>5%</Value>
+    <Timer></Timer>
+    <Description></Description>
+    <level>30</level>
+    <EffectType>PASSIVE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Orion2</Code>
+    <Full>RP bonus buff</Full>
+    <Duration>Passive</Duration>
+    <Value>5%</Value>
+    <Timer></Timer>
+    <Description></Description>
+    <level>30</level>
+    <EffectType>PASSIVE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Moon1</Code>
+    <Full>Melee resist buff</Full>
+    <Duration>30s</Duration>
+    <Value>10%</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>40</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Moon2</Code>
+    <Full>Weapon Summoning</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Summon Energy magic weapons</Description>
+    <level>40</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Sun2</Code>
+    <Full>Weapon Summoning</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Summon melee energy weapons</Description>
+    <level>40</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Cloud1</Code>
+    <Full>Safefall buff</Full>
+    <Duration>5min</Duration>
+    <Value>25%</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Erin1</Code>
+    <Full>Mana life regen</Full>
+    <Duration>Passive</Duration>
+    <Value>2</Value>
+    <Timer>Passive</Timer>
+    <Description>pom 2 life regen 6</Description>
+    <level>45</level>
+    <EffectType>PASSIVE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Erin2</Code>
+    <Full>Piercing</Full>
+    <Duration>Passive</Duration>
+    <Value>5%</Value>
+    <Timer></Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>PASSIVE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Brui1</Code>
+    <Full>Intelligence</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Give informations about your target</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Brui2</Code>
+    <Full>Siege buff</Full>
+    <Duration>5s</Duration>
+    <Value>8</Value>
+    <Timer>Proc</Timer>
+    <Description>Multiply by 8 your damages done on sieges elements</Description>
+    <level>45</level>
+    <EffectType>PROC</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Kala2</Code>
+    <Full>Heal other Time</Full>
+    <Duration>30s</Duration>
+    <Value>5%</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>40</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>God1</Code>
+    <Full>Healing Charge</Full>
+    <Duration></Duration>
+    <Value>150</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>40</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>God2</Code>
+    <Full>Stealth lore</Full>
+    <Duration>1min</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>40</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Phoeb1</Code>
+    <Full>Fumble</Full>
+    <Duration>30s</Duration>
+    <Value>10%</Value>
+    <Timer>15min</Timer>
+    <Description>Pbaoe 10% fumble melee and miscast</Description>
+    <level>45</level>
+    <EffectType>US</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Phoeb2</Code>
+    <Full>Harp summoning Style shield</Full>
+    <Duration>5min</Duration>
+    <Value>75%</Value>
+    <Timer>15min</Timer>
+    <Description>Mins/Bard : summon a harp, Skald : 75% style shield</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Zahur1</Code>
+    <Full>Mana conversion</Full>
+    <Duration>10min</Duration>
+    <Value>25%</Value>
+    <Timer>15min</Timer>
+    <Description>Convert 25% mana to Hp</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Trait1</Code>
+    <Full>Pet Summoning</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>Proc</Timer>
+    <Description>summon a pet which will lifetap and melee attack your target</Description>
+    <level>41</level>
+    <EffectType>PROC</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Trait2</Code>
+    <Full>Morphing</Full>
+    <Duration>10min</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>You become a shade and gain % to lifetap your target</Description>
+    <level>41</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Snat1</Code>
+    <Full>BPs</Full>
+    <Duration>Passive</Duration>
+    <Value>7%</Value>
+    <Timer></Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>PASSIVE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Snat2</Code>
+    <Full>RP</Full>
+    <Duration>Passive</Duration>
+    <Value>6%</Value>
+    <Timer></Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>PASSIVE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Croc1</Code>
+    <Full>D/Q debuff</Full>
+    <Duration></Duration>
+    <Value>40</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>PROC</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Croc2</Code>
+    <Full>Weapon summoning</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>PROC</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Jacina1</Code>
+    <Full>Syphon</Full>
+    <Duration></Duration>
+    <Value>10%</Value>
+    <Timer>Passive</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Jacina2</Code>
+    <Full>Heal/mana</Full>
+    <Duration></Duration>
+    <Value>25%</Value>
+    <Timer>15min</Timer>
+    <Description>Healers : 25% heal. Mages : 25%mana</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Healer1</Code>
+    <Full>Heal</Full>
+    <Duration></Duration>
+    <Value>250</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Healer2</Code>
+    <Full>AO Heal</Full>
+    <Duration></Duration>
+    <Value>33%</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Flask1</Code>
+    <Full>heal increase</Full>
+    <Duration>10min</Duration>
+    <Value>10%</Value>
+    <Timer>15min</Timer>
+    <Description>increase all the heal received by 10%</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Flask2</Code>
+    <Full>Avoid Death</Full>
+    <Duration>15min</Duration>
+    <Value>10%</Value>
+    <Timer>15min</Timer>
+    <Description>Chance not to die on a fatal hit</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Scalars1</Code>
+    <Full>Melee ABS</Full>
+    <Duration></Duration>
+    <Value>40</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Scalars2</Code>
+    <Full>Morphing</Full>
+    <Duration>10min</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Morph you into a wolf</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Mariasha1</Code>
+    <Full>reverse dot disease</Full>
+    <Duration>40s</Duration>
+    <Value>25</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Mariasha2</Code>
+    <Full>Arcane command</Full>
+    <Duration>5min</Duration>
+    <Value>5%</Value>
+    <Timer>15min</Timer>
+    <Description>spell range and piercing buff</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>GOV1</Code>
+    <Full>AF debuff</Full>
+    <Duration>1min</Duration>
+    <Value>50</Value>
+    <Timer>Proc</Timer>
+    <Description>debuff your target, buff yourself</Description>
+    <level>45</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>GOV2</Code>
+    <Full>dot</Full>
+    <Duration>30s</Duration>
+    <Value>35</Value>
+    <Timer>reverse</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>GOLM1</Code>
+    <Full>Rezz sickness cure</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>30</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Malice2</Code>
+    <Full>Arrogance</Full>
+    <Duration>20s</Duration>
+    <Value>50</Value>
+    <Timer>15min</Timer>
+    <Description>+50% immunity to melee +50all stats then debuff for 20s</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Eirein1</Code>
+    <Full>Arrogance</Full>
+    <Duration>15s</Duration>
+    <Value>50</Value>
+    <Timer>15min</Timer>
+    <Description>+50% immunity to melee +50all stats then debuff for 20s</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Eirein2</Code>
+    <Full>Damage conversion</Full>
+    <Duration>10s</Duration>
+    <Value>50</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Alvarus1</Code>
+    <Full>Aquatic Breath</Full>
+    <Duration>20min</Duration>
+    <Value>100%</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Alvarus2</Code>
+    <Full>Morphing</Full>
+    <Duration>20min</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Morph you into a shark</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>SOK1</Code>
+    <Full>Anti Styles</Full>
+    <Duration>1min</Duration>
+    <Value>50%</Value>
+    <Timer>Proc</Timer>
+    <Description>Proc an anti style shield</Description>
+    <level>45</level>
+    <EffectType>PROC</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>SOK2</Code>
+    <Full>Aura of Kings</Full>
+    <Duration>10min</Duration>
+    <Value>5%</Value>
+    <Timer>15min</Timer>
+    <Description>+5% hp and AF buff</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>GS1</Code>
+    <Full>Melee resist debuff</Full>
+    <Duration>15s</Duration>
+    <Value>15</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>PROC</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>GS2</Code>
+    <Full>Javlin summoning</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>summon javlin you can use to interrupt</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Fopp1</Code>
+    <Full>melee resist debuff</Full>
+    <Duration>30s</Duration>
+    <Value>10%</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Fopp2</Code>
+    <Full>all stat debuff</Full>
+    <Duration>1min</Duration>
+    <Value>12</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>AOW1</Code>
+    <Full>Disorientation</Full>
+    <Duration>1min</Duration>
+    <Value>5%</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>AOW2</Code>
+    <Full>DOT + disorientation</Full>
+    <Duration>30s</Duration>
+    <Value>5%</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Egg1</Code>
+    <Full>Cure rezz sickness</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Egg2</Code>
+    <Full>pbaoe rezz</Full>
+    <Duration></Duration>
+    <Value>10%</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>SOM2</Code>
+    <Full>Morphing and ablative</Full>
+    <Duration>10min</Duration>
+    <Value>200</Value>
+    <Timer>15min</Timer>
+    <Description>During the shade morphe, you can proc 100% 200 melee ablatives</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Traldor1</Code>
+    <Full>Syphon</Full>
+    <Duration></Duration>
+    <Value>10%</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>35</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Traldor2</Code>
+    <Full>Damage buff and piercing buff</Full>
+    <Duration>5min</Duration>
+    <Value>5%</Value>
+    <Timer>30min</Timer>
+    <Description>Increase the group magic damage for 5%, piercing for 5%</Description>
+    <level>35</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Eerie1</Code>
+    <Full>stone summoning</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Eerie2</Code>
+    <Full>necklace summoning</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>EP1</Code>
+    <Full>Morphing removal</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>remove the transformation from a target</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>EP2</Code>
+    <Full>omni hot</Full>
+    <Duration>30s</Duration>
+    <Value>10%</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Tartaros1</Code>
+    <Full>Lifetap</Full>
+    <Duration></Duration>
+    <Value>70</Value>
+    <Timer>15min</Timer>
+    <Description>Lifetap on a target</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Tartaros2</Code>
+    <Full>Power</Full>
+    <Duration></Duration>
+    <Value>50%</Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Scorpion2</Code>
+    <Full>Disease cure</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+
+  <UseItem>
+    <Code>Nailah2</Code>
+    <Full>dot and Snare proc</Full>
+    <Duration>45s</Duration>
+    <Value>35%</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Merit1</Code>
+    <Full>Omni debuff</Full>
+    <Duration>1min</Duration>
+    <Value>25</Value>
+    <Timer>Proc</Timer>
+    <Description>debuff all stats</Description>
+    <level>40</level>
+    <EffectType>PROC</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>Merit2</Code>
+    <Full>Aura of Kings</Full>
+    <Duration>10min</Duration>
+    <Value>4%</Value>
+    <Timer>15min</Timer>
+    <Description>AF and HP increase</Description>
+    <level>40</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>DS1</Code>
+    <Full>Self morphing</Full>
+    <Duration>10min</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Morphe you into a panther</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>DS2</Code>
+    <Full>Group morphing</Full>
+    <Duration>10min</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description>Morphe all your group into panthers, break at first damage taken</Description>
+    <level>45</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>AT1</Code>
+    <Full>Big sobekite</Full>
+    <Duration>10min</Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>41</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>AT2</Code>
+    <Full>Small sobekite</Full>
+    <Duration></Duration>
+    <Value></Value>
+    <Timer>15min</Timer>
+    <Description></Description>
+    <level>41</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>GSV1</Code>
+    <Full>Passive melee resist buff</Full>
+    <Duration></Duration>
+    <Value>3%</Value>
+    <Timer></Timer>
+    <Description></Description>
+    <level>45</level>
+    <EffectType>PASSIVE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>GSV2</Code>
+    <Full>Reactive snare</Full>
+    <Duration>30s</Duration>
+    <Value>35%</Value>
+    <Timer>Proc</Timer>
+    <Description>Shape your target into a scarabee and snare it</Description>
+    <level>45</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>HEAL2</Code>
+    <Full>Healing Reactive Reverse Proc</Full>
+    <Duration></Duration>
+    <Value>120</Value>
+    <Timer>Proc</Timer>
+    <Description>Heals 120 HP</Description>
+    <level>50</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>CONV</Code>
+    <Full>Otherwordly Damage Conversion</Full>
+    <Duration>Passive</Duration>
+    <Value>3%</Value>
+    <Timer></Timer>
+    <Description>Convert 3% of all damage into stamina and power</Description>
+    <level>50</level>
+    <EffectType>PASSIVE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>MELPROC</Code>
+    <Full>Melee Ablative Reactive Reverse Proc</Full>
+    <Duration></Duration>
+    <Value>200</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>50</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>OMNHEAPRO</Code>
+    <Full>Omni heal Reverse Proc</Full>
+    <Duration></Duration>
+    <Value>10%</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>50</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>BOONOK</Code>
+    <Full>Boon of King</Full>
+    <Duration></Duration>
+    <Value>15%</Value>
+    <Timer>12min</Timer>
+    <Description>Increase health and AF by 15%</Description>
+    <level>50</level>
+    <EffectType>USE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>HEAL3</Code>
+    <Full>Healing Reactive Proc</Full>
+    <Duration></Duration>
+    <Value>180</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>50</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>CELE1</Code>
+    <Full>Celerity proc</Full>
+    <Duration>1min</Duration>
+    <Value>25%</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>50</level>
+    <EffectType>PROC</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>CELE2</Code>
+    <Full>Celerity proc</Full>
+    <Duration>1min</Duration>
+    <Value>25%</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>50</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>HEAL4</Code>
+    <Full>Healing Reactive Proc</Full>
+    <Duration></Duration>
+    <Value>280</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>50</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+  <UseItem>
+    <Code>SNARE1</Code>
+    <Full>Reactive Snare Proc</Full>
+    <Duration>1min</Duration>
+    <Value>60%</Value>
+    <Timer>Proc</Timer>
+    <Description></Description>
+    <level>50</level>
+    <EffectType>REVERSE</EffectType>
+  </UseItem>
+
+</UsesItem>

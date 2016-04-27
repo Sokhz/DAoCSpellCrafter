@@ -1,0 +1,898 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Skills>
+  <Skill>
+    <Code>MELEE</Code>
+    <Full>All Melee Skills</Full>
+    <GemName Realm="ALB" Code="131260" Dust="7" Agent="B;G;J">Finesse War Sigil</GemName>
+    <GemName Realm="MID" Code="131140" Dust="4" Agent="B;G;J">Finesse War Rune</GemName>
+    <GemName Realm="HIB" Code="131280" Dust="12" Agent="B;G;J">Finesse War Spell Stone</GemName>
+    <Order>-4</Order>
+  </Skill>
+  <Skill>
+    <Code>MAGIC</Code>
+    <Full>All Magic Skills</Full>
+    <GemName Realm="ALB" Code="131280" Dust="9" Agent="B;G;J">Finesse Fervor Sigil</GemName>
+    <GemName Realm="MID" Code="131160" Dust="5" Agent="B;G;J">Finesse Primal Rune</GemName>
+    <GemName Realm="HIB" Code="131300" Dust="10" Agent="B;G;J">Finesse Nature Spell Stone</GemName>
+    <Order>-3</Order>
+  </Skill>
+  <Skill>
+    <Code>RANGE</Code>
+    <Full>All Archery Skills</Full>
+    <Order>-2</Order>
+  </Skill>
+  <Skill>
+    <Code>DUAL</Code>
+    <Full>All Dual Wield Skills</Full>
+    <Order>-1</Order>
+  </Skill>
+  <Skill>
+    <Code>CRU</Code>
+    <Full>Crush</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>ARM</Class>
+      <Class>HER</Class>
+      <Class>MER</Class>
+      <Class>PAL</Class>
+      <Class>REA</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130480" Agent="B" Dust="7">Fiery war sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>SLA</Code>
+    <Full>Slash</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>ARM</Class>
+      <Class>INF</Class>
+      <Class>MER</Class>
+      <Class>MIN</Class>
+      <Class>PAL</Class>
+      <Class>REA</Class>
+      <Class>SCO</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130460" Agent="F" Dust="7">Watery war sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>THR</Code>
+    <Full>Thrust</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>ARM</Class>
+      <Class>INF</Class>
+      <Class>MER</Class>
+      <Class>MIN</Class>
+      <Class>PAL</Class>
+      <Class>REA</Class>
+      <Class>SCO</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130500" Agent="K" Dust="7">Dusty war sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>POL</Code>
+    <Full>Polearm</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>ARM</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130540" Agent="J" Dust="7">Earthen war sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>TWO</Code>
+    <Full>Two Handed</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>ARM</Class>
+      <Class>PAL</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130520" Agent="E" Dust="7">Heated war sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>SHI</Code>
+    <Full>Shield</Full>
+    <Type>SHIELD</Type>
+    <Classes>
+      <Class>ARM</Class>
+      <Class>HER</Class>
+      <Class>MER</Class>
+      <Class>PAL</Class>
+      <Class>REA</Class>
+      <Class>SCO</Class>
+      <Class>CHA</Class>
+      <Class>HERO</Class>
+      <Class>BLA</Class>
+      <Class>WAR</Class>
+      <Class>WARRIO</Class>
+      <Class>THA</Class>
+      <Class>VALK</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130360" Agent="B" Dust="1">Fiery battle jewel</GemName>
+  </Skill>
+  <Skill>
+    <Code>MATT</Code>
+    <Full>Matter Magic</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>CAB</Class>
+      <Class>SOR</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130820" Agent="K" Dust="8">Dusty evocation sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>BOD</Code>
+    <Full>Body Magic</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>CAB</Class>
+      <Class>SOR</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130800" Agent="E" Dust="8">Heated Evocation sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>SPI</Code>
+    <Full>Spirit Magic</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>CAB</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130840" Agent="I" Dust="8">Vapor evocation sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>MIND</Code>
+    <Full>Mind Magic</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>SOR</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130860" Agent="F" Dust="8">Watery evocation sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>REJU</Code>
+    <Full>Rejuvenation</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>CLE</Class>
+      <Class>FRI</Class>
+      <Class>HER</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130660" Agent="F" Dust="9">Watery fervor sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>ENHA</Code>
+    <Full>Enhancements</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>CLE</Class>
+      <Class>FRI</Class>
+      <Class>HER</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130640" Agent="A" Dust="9">Airy fervor sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>SMIT</Code>
+    <Full>Smiting</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>CLE</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130620" Agent="B" Dust="9">Fiery fervor sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>STA</Code>
+    <Full>Staff</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>FRI</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130380" Agent="J" Dust="1">Earthen battle jewel</GemName>
+  </Skill>
+  <Skill>
+    <Code>FLE</Code>
+    <Full>Flexible</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>HER</Class>
+      <Class>REA</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131080" Agent="F" Dust="7">Molten magma war sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>STE</Code>
+    <Full>Stealth</Full>
+    <Type>STEALTH</Type>
+    <Classes>
+      <Class>INF</Class>
+      <Class>SCO</Class>
+      <Class>MIN</Class>
+      <Class>SB</Class>
+      <Class>HUN</Class>
+      <Class>RAN</Class>
+      <Class>NIG</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130400" Agent="A" Dust="1">Airy Battle jewel</GemName>
+  </Skill>
+  <Skill>
+    <Code>CRI</Code>
+    <Full>Critical Strike</Full>
+    <Type>CRITICAL</Type>
+    <Classes>
+      <Class>INF</Class>
+      <Class>SB</Class>
+      <Class>NIG</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130440" Agent="E" Dust="1">Heated Battle jewel</GemName>
+  </Skill>
+  <Skill>
+    <Code>DUA</Code>
+    <Full>Dual Wield</Full>
+    <Type>DUAL</Type>
+    <Classes>
+      <Class>INF</Class>
+      <Class>MER</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130600" Agent="C" Dust="7">Icy war sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>FIR</Code>
+    <Full>First Wraps</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>MAU</Class>
+    </Classes>
+    <GemName Realm="ALB" Code="131300" Dust="7" Agent="C">Glacial War Sigil</GemName>
+    <GemName Realm="MID" Code="131180" Dust="4" Agent="C">Glacial War Rune</GemName>
+    <GemName Realm="HIB" Code="131320" Dust="12" Agent="C">Glacial War Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>MAU</Code>
+    <Full>Mauler Staffs</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>MAU</Class>
+    </Classes>
+    <GemName Realm="ALB" Code="131320" Dust="7" Agent="B">Cinder war Sigil</GemName>
+    <GemName Realm="MID" Code="131200" Dust="4" Agent="B">Cinder war Rune</GemName>
+    <GemName Realm="HIB" Code="131340" Dust="12" Agent="B">Cinder war Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>AUR</Code>
+    <Full>Aura Manipulation</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>MAU</Class>
+    </Classes>
+    <GemName Realm="ALB" Code="131340" Dust="9" Agent="H">Radiant Fervor Sigil</GemName>
+    <GemName Realm="MID" Code="131220" Dust="5" Agent="H">Radiant Primal Rune</GemName>
+    <GemName Realm="HIB" Code="131360" Dust="10" Agent="H">Radiant Nature Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>MAG</Code>
+    <Full>Magnetism</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>MAU</Class>
+    </Classes>
+    <GemName Realm="ALB" Code="131360" Dust="9" Agent="G">Magnetic Fervor Sigil</GemName>
+    <GemName Realm="MID" Code="131240" Dust="5" Agent="G">Magnetic Primal Rune</GemName>
+    <GemName Realm="HIB" Code="131380" Dust="10" Agent="G">Magnetic Nature Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>POW</Code>
+    <Full>Power Strikes</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>MAU</Class>
+    </Classes>
+    <GemName Realm="ALB" Code="131380" Dust="9" Agent="D">Clout Fervor sigil</GemName>
+    <GemName Realm="MID" Code="131260" Dust="5" Agent="D">Clout Primal Rune</GemName>
+    <GemName Realm="HIB" Code="131400" Dust="10" Agent="D">Clout Nature Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>INS</Code>
+    <Full>Instruments</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>MIN</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130700" Agent="I" Dust="9">Vapor fervor sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>DEAT</Code>
+    <Full>Deathsight</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>NEC</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131100" Agent="I" Dust="9">Vacuous fervor sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>PAIN</Code>
+    <Full>Pain Working</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>NEC</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131120" Agent="G" Dust="9">Salt Crusted fervor sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>DEATHS</Code>
+    <Full>Death Servant</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>NEC</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131140" Agent="K" Dust="9">Ashen fervor sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>CHA</Code>
+    <Full>Chants</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>PAL</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130680" Agent="J" Dust="9">Earthen fervor sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>SOU</Code>
+    <Full>Soulrending</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>REA</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131160" Agent="E" Dust="9">Steaming fervor sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>ARC</Code>
+    <Full>Archery</Full>
+    <Type>RANGE</Type>
+    <Classes>
+      <Class>SCO</Class>
+      <Class>RAN</Class>
+      <Class>HUN</Class>
+    </Classes>
+    <GemName Realm="ALB" Code="130560" Dust="7" Agent="A">Airy war sigil</GemName>
+    <GemName Realm="MID" Code="130540" Dust="4" Agent="A">Airy war rune</GemName>
+    <GemName Realm="HIB" Code="130580" Dust="12" Agent="A">Airy war Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>COLD</Code>
+    <Full>Cold Magic</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>THE</Class>
+      <Class>WIZ</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130740" Agent="C" Dust="8">Icy evocation sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>EARTH</Code>
+    <Full>Earth Magic</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>THE</Class>
+      <Class>WIZ</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130720" Agent="J" Dust="8">Earthen evocation sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>WIND</Code>
+    <Full>Wind Magic</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>THE</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130780" Agent="A" Dust="8">Airy evocation sigil</GemName>
+  </Skill>
+  <Skill>
+    <Code>FIRE</Code>
+    <Full>Fire Magic</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>WIZ</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130760" Agent="B" Dust="8">Fiery evocation sigil</GemName>
+  </Skill>
+
+  <Skill>
+    <Code>ARBP</Code>
+    <Full>Arboreal Path</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>ANI</Class>
+      <Class>VAL</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130960" Agent="I" Dust="10">Steaming Nature Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>CREEPPATH</Code>
+    <Full>Creeping Path</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>ANI</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130980" Agent="J" Dust="10"> Oozing Nature Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>VERPATH</Code>
+    <Full>Verdant Path</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>ANI</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131000" Agent="E" Dust="10">Mineral Encrusted Nature Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>ETHS</Code>
+    <Full>Etheral Shriek</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>BAI</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131180" Agent="F" Dust="11">Ethereal Arcane Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>PHAW</Code>
+    <Full>Phantasmal Wail</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>BAI</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131160" Agent="B" Dust="11">Phantasmal Arcane Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>SPEG</Code>
+    <Full>Spectral Guard</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>BAI</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131140" Agent="B" Dust="11">Spectral Arcane Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>LIG</Code>
+    <Full>Light</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>ELD</Class>
+      <Class>ENC</Class>
+      <Class>MEN</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130700" Agent="B" Dust="11">Fiery Arcane Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>MAN</Code>
+    <Full>Mana</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>ELD</Class>
+      <Class>ENC</Class>
+      <Class>MEN</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130720" Agent="F" Dust="11">Watery Arcane Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>VOI</Code>
+    <Full>VOID</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>ELD</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130760" Agent="C" Dust="11">Icy Arcane Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>ENCH</Code>
+    <Full>Enchantments</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>ENC</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130740" Agent="I" Dust="11">Vapor Arcane Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>MENT</Code>
+    <Full>Mentalism</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>MEN</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130780" Agent="J" Dust="11">Earthen Arcane Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>NURT</Code>
+    <Full>Nurture</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>BAR</Class>
+      <Class>DRU</Class>
+      <Class>WAR</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130600" Agent="B" Dust="10">Fiery Nature Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>MUS</Code>
+    <Full>Music</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>BAR</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130660" Agent="A" Dust="10">Airy Nature Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>REG</Code>
+    <Full>Regrowth</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>BAR</Class>
+      <Class>WAR</Class>
+      <Class>DRU</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130620" Agent="F" Dust="10">Watery Nature Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>NATU</Code>
+    <Full>Nature</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>DRU</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130640" Agent="J" Dust="10">Earthen Nature Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>VALO</Code>
+    <Full>Valor</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>CHA</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130680" Agent="A" Dust="11">Airy Arcane Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>BLA</Code>
+    <Full>Blades</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>BAR</Class>
+      <Class>HERO</Class>
+      <Class>NIG</Class>
+      <Class>RAN</Class>
+      <Class>CHA</Class>
+      <Class>BLA</Class>
+      <Class>WAR</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130460" Agent="F" Dust="12">Watery war Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>BLU</Code>
+    <Full>Blunt</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>HERO</Class>
+      <Class>BAR</Class>
+      <Class>BLA</Class>
+      <Class>CHA</Class>
+      <Class>WAR</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130480" Agent="B" Dust="12">Fiery war Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>PIER</Code>
+    <Full>Piercing</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>HERO</Class>
+      <Class>BLA</Class>
+      <Class>RAN</Class>
+      <Class>NIG</Class>
+      <Class>VAM</Class>
+      <Class>CHA</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130500" Agent="K" Dust="12">Dusty war Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>CELD</Code>
+    <Full>Celtic Dual</Full>
+    <Type>DUAL</Type>
+    <Classes>
+      <Class>BLA</Class>
+      <Class>RAN</Class>
+      <Class>NIG</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130560" Agent="C" Dust="12">Icy war Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>PARR</Code>
+    <Full>Parry</Full>
+    <Type>PARRY</Type>
+    <Classes>
+      <Class>BLA</Class>
+      <Class>HERO</Class>
+      <Class>CHA</Class>
+      <Class>VAL</Class>
+      <Class>WAR</Class>
+      <Class>MER</Class>
+      <Class>ARM</Class>
+      <Class>PAL</Class>
+      <Class>FRI</Class>
+      <Class>REA</Class>
+      <Class>THA</Class>
+      <Class>SKA</Class>
+      <Class>VALK</Class>
+      <Class>WARRIO</Class>
+      <Class>SAV</Class>
+      <Class>ZERK</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130340" Agent="I" Dust="1">Vapor Battle Jewel</GemName>
+  </Skill>
+  <Skill>
+    <Code>LARW</Code>
+    <Full>Large Weaponry</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>CHA</Class>
+      <Class>HERO</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130520" Agent="E" Dust="12">Heated war Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>CELS</Code>
+    <Full>Celtic Spear</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>HERO</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130540" Agent="J" Dust="12">Earthen war Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>ENV</Code>
+    <Full>Envenom</Full>
+    <Type>OTHER</Type>
+    <Classes>
+      <Class>NIG</Class>
+      <Class>INF</Class>
+      <Class>SB</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130420" Agent="K" Dust="1">Dusty battle Jewel</GemName>
+  </Skill>
+  <Skill>
+    <Code>SCY</Code>
+    <Full>Scythe</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>VAL</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130940" Agent="H" Dust="12">Light War Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>DEM</Code>
+    <Full>Dementia</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>VAM</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131240" Agent="J" Dust="11">Aberrant Arcane Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>SHAMA</Code>
+    <Full>Shadow Mastery</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>VAM</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131200" Agent="I" Dust="11">Shadowy Arcane Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>VAMPE</Code>
+    <Full>Vampiiric Embrace</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>VAM</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131220" Agent="C" Dust="11">Embracing Arcane Spell Stone</GemName>
+  </Skill>
+  <Skill>
+    <Code>BDA</Code>
+    <Full>BDe Army</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>BD</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130960" Agent="K" Dust="5">Ashen Primal Rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>DARK</Code>
+    <Full>Darkness</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>BD</Class>
+      <Class>SM</Class>
+      <Class>RM</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130660" Agent="C" Dust="6">Icy chaos rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>SUPP</Code>
+    <Full>Suppression</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>BD</Class>
+      <Class>SM</Class>
+      <Class>RM</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130680" Agent="K" Dust="6">Dusty chaos rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>SUMM</Code>
+    <Full>Summoning</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>SM</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130720" Agent="I" Dust="6">Vapor Chaos rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>RMEC</Code>
+    <Full>Runecarving</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>RM</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130700" Agent="E" Dust="6">Heated chaos rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>CUR</Code>
+    <Full>Cursing</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>WL</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131060" Agent="J" Dust="5">Blighted Primal rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>HEX</Code>
+    <Full>Hexing</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>WL</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131080" Agent="A" Dust="5">Unholy Primal rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>STORM</Code>
+    <Full>Stormcalling</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>THA</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130640" Agent="B" Dust="5">Fiery Primal rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>CAVE</Code>
+    <Full>Cave Magic</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>SHAM</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130780" Agent="B" Dust="6">Fiery chaos rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>MEND</Code>
+    <Full>Mending</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>SHAM</Class>
+      <Class>HEAL</Class>
+      <Class>VALK</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130740" Agent="F" Dust="6">Watery chaos rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>ODIN</Code>
+    <Full>Odin's Will</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>VALK</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="131040" Agent="I" Dust="5">Valiant Primal rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>AUG</Code>
+    <Full>Augmentation</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>SHAM</Class>
+      <Class>HEAL</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130760" Agent="A" Dust="6">Airy chaos rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>BS</Code>
+    <Full>Battlesongs</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>SKA</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130620" Agent="A" Dust="5">Airy primal rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>LEF</Code>
+    <Full>Left Axe</Full>
+    <Type>DUAL</Type>
+    <Classes>
+      <Class>ZERK</Class>
+      <Class>SB</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130580" Agent="C" Dust="4">Icy war rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>AXE</Code>
+    <Full>Axe</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>SB</Class>
+      <Class>ZERK</Class>
+      <Class>THA</Class>
+      <Class>WARRIO</Class>
+      <Class>SKA</Class>
+      <Class>SAV</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130500" Agent="J" Dust="4">Earthen war rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>HAMM</Code>
+    <Full>Hammer</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>ZERK</Class>
+      <Class>THA</Class>
+      <Class>WARRIO</Class>
+      <Class>SKA</Class>
+      <Class>SAV</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130480" Agent="B" Dust="4">Fiery war rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>SWO</Code>
+    <Full>Sword</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>SB</Class>
+      <Class>ZERK</Class>
+      <Class>THA</Class>
+      <Class>WARRIO</Class>
+      <Class>SKA</Class>
+      <Class>SAV</Class>
+      <Class>VALK</Class>
+      <Class>HUN</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130460" Agent="F" Dust="4">Watery war rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>SPEA</Code>
+    <Full>Spear</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>HUN</Class>
+      <Class>VALK</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130520" Agent="E" Dust="4">Heated war rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>HTH</Code>
+    <Full>Hand To Hand</Full>
+    <Type>MELEE</Type>
+    <Classes>
+      <Class>SAV</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130940" Agent="F" Dust="4">Lightning charged war rune</GemName>
+  </Skill>
+  <Skill>
+    <Code>BEAS</Code>
+    <Full>Beastcraft</Full>
+    <Type>MAGIC</Type>
+    <Classes>
+      <Class>HUN</Class>
+    </Classes>
+    <GemName Realm="ALL" Code="130600" Agent="J" Dust="5">Earthen primal rune</GemName>
+  </Skill>
+</Skills>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArmorTypes>
+  <ArmorType>
+    <Code>LEA</Code>
+    <Full>Leather</Full>
+    <Order>6</Order>
+  </ArmorType>
+  <ArmorType>
+    <Code>REI</Code>
+    <Full>Reinforced</Full>
+    <Order>4</Order>
+  </ArmorType>
+  <ArmorType>
+    <Code>CHA</Code>
+    <Full>Chain</Full>
+    <Order>2</Order>
+  </ArmorType>
+  <ArmorType>
+    <Code>SCA</Code>
+    <Full>Scale</Full>
+    <Order>2</Order>
+  </ArmorType>
+  <ArmorType>
+    <Code>PLA</Code>
+    <Full>Plate</Full>
+    <Order>1</Order>
+  </ArmorType>
+  <ArmorType>
+    <Code>CLO</Code>
+    <Full>Cloth</Full>
+    <Order>7</Order>
+  </ArmorType>
+  <ArmorType>
+    <Code>STU</Code>
+    <Full>Studded</Full>
+    <Order>5</Order>
+  </ArmorType>
+</ArmorTypes>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Caracs>
+  <Carac>
+    <Code>STR</Code>
+    <Full>Strength</Full>
+    <Order>1</Order>
+    <Craft>1</Craft>
+    <OnLoot>1</OnLoot>
+    <ShowStats>1</ShowStats>
+    <GemName>Fiery essence jewel</GemName>
+    <GemCode>130000</GemCode>
+    <Agent>B</Agent>
+  </Carac>
+  <Carac>
+    <Code>CON</Code>
+    <Full>Constitution</Full>
+    <Order>2</Order>
+    <Craft>1</Craft>
+    <OnLoot>1</OnLoot>
+    <ShowStats>1</ShowStats>
+    <GemName>Earthen essence jewel</GemName>
+    <GemCode>130020</GemCode>
+    <Agent>J</Agent>
+  </Carac>
+  <Carac>
+    <Code>DEX</Code>
+    <Full>Dexterity</Full>
+    <Order>3</Order>
+    <Craft>1</Craft>
+    <OnLoot>1</OnLoot>
+    <ShowStats>1</ShowStats>
+    <GemName>Vapor essence jewel</GemName>
+    <GemCode>130040</GemCode>
+    <Agent>I</Agent>
+  </Carac>
+  <Carac>
+    <Code>QUI</Code>
+    <Full>Quickness</Full>
+    <Order>4</Order>
+    <Craft>1</Craft>
+    <OnLoot>1</OnLoot>
+    <ShowStats>1</ShowStats>
+    <GemName>Airy essence jewel</GemName>
+    <GemCode>130060</GemCode>
+    <Agent>A</Agent>
+  </Carac>
+  <Carac>
+    <Code>INT</Code>
+    <Full>Intelligence</Full>
+    <Order>5</Order>
+    <Craft>1</Craft>
+    <OnLoot>1</OnLoot>
+    <ShowStats>1</ShowStats>
+    <GemName>Dusty Essence Jewel</GemName>
+    <GemCode>130120</GemCode>
+    <Agent>K</Agent>
+  </Carac>
+  <Carac>
+    <Code>PIE</Code>
+    <Full>Piety</Full>
+    <Order>6</Order>
+    <Craft>1</Craft>
+    <OnLoot>1</OnLoot>
+    <ShowStats>1</ShowStats>
+    <GemName>Watery essence jewel</GemName>
+    <GemCode>130080</GemCode>
+    <Agent>F</Agent>
+  </Carac>
+  <Carac>
+    <Code>CHA</Code>
+    <Full>Charisma</Full>
+    <Order>7</Order>
+    <Craft>1</Craft>
+    <OnLoot>1</OnLoot>
+    <ShowStats>1</ShowStats>
+    <GemName>Icy essence jewel</GemName>
+    <GemCode>130140</GemCode>
+    <Agent>C</Agent>
+  </Carac>
+  <Carac>
+    <Code>EMP</Code>
+    <Full>Empathy</Full>
+    <Order>8</Order>
+    <Craft>1</Craft>
+    <OnLoot>1</OnLoot>
+    <ShowStats>1</ShowStats>
+    <GemName>Heated essence jewel</GemName>
+    <GemCode>130100</GemCode>
+    <Agent>E</Agent>
+  </Carac>
+  <Carac>
+    <Code>ACU</Code>
+    <Full>Acuity</Full>
+    <Order>9</Order>
+    <Craft>0</Craft>
+    <OnLoot>1</OnLoot>
+    <ShowStats>0</ShowStats>
+  </Carac>
+  <Carac>
+    <Code>HP</Code>
+    <Full>Hit Points</Full>
+    <Order>10</Order>
+    <Craft>0</Craft>
+    <OnLoot>0</OnLoot>
+    <ShowStats>1</ShowStats>
+    <GemName>Blood Essence jewel</GemName>
+    <GemCode>ALB:130880,MID:130820,HIB:130800</GemCode>
+    <Agent>D</Agent>
+  </Carac>
+  <Carac>
+    <Code>MAN</Code>
+    <Full>Mana</Full>
+    <Order>11</Order>
+    <Craft>0</Craft>
+    <OnLoot>1</OnLoot>
+    <ShowStats>1</ShowStats>
+    <GemName>Mystical Essence Jewel</GemName>
+    <GemCode>ALB:130900,MID:130840,HIB:130820</GemCode>
+    <Agent>G</Agent>
+  </Carac>
+  <Carac>
+    <Code>FAT</Code>
+    <Full>Fatigue</Full>
+    <Order>12</Order>
+    <Craft>0</Craft>
+    <OnLoot>1</OnLoot>
+    <ShowStats>1</ShowStats>
+  </Carac>
+</Caracs>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ToABonuses>
+  <ToaBonus>
+    <Code>DUR</Code>
+    <Full>Spell Duration</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>RAN</Code>
+    <Full>Spell Range</Full>
+    <LevelDividedBy>5</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>CASTSPEED</Code>
+    <Full>Casting Speed</Full>
+    <LevelDividedBy>5</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>BUF</Code>
+    <Full>Enhancement Spell</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>MADMG</Code>
+    <Full>Magic Damage</Full>
+    <LevelDividedBy>5</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>MELSPEED</Code>
+    <Full>Melee Speed</Full>
+    <LevelDividedBy>5</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>MES</Code>
+    <Full>Melee Style</Full>
+    <LevelDividedBy>5</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>MEDMG</Code>
+    <Full>Melee Damage</Full>
+    <LevelDividedBy>5</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>RES</Code>
+    <Full>Spell Piercing</Full>
+    <LevelDividedBy>5</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>HEA</Code>
+    <Full>Healing Effectiveness</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>AF</Code>
+    <Full>Armor Factor</Full>
+    <LevelDividedBy>1</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>POW</Code>
+    <Full>Power Pool</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>SYP</Code>
+    <Full>Syphon</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>DEBUF</Code>
+    <Full>Debuff Bonus</Full>
+    <LevelDividedBy>2</LevelDividedBy>
+  </ToaBonus>
+  <ToaBonus>
+    <Code>FOCUS</Code>
+    <Full>All Spell Lines Focus</Full>
+    <LevelDividedBy>1</LevelDividedBy>
+  </ToaBonus>
+</ToABonuses>

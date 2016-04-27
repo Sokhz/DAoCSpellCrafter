@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TypeBonuses>
+  <TypeBonus>
+    <Code>STA</Code>
+    <Full>Stat</Full>
+    <Order>1</Order>
+    <Craft>1</Craft>
+    <Dust>2</Dust>
+  </TypeBonus>
+  <TypeBonus>
+    <Code>RES</Code>
+    <Full>Resist</Full>
+    <Order>2</Order>
+    <Craft>1</Craft>
+    <Dust>3</Dust>
+  </TypeBonus>
+  <TypeBonus>
+    <Code>HP</Code>
+    <Full>Hit Points</Full>
+    <Order>3</Order>
+    <Craft>1</Craft>
+    <Dust>2</Dust>
+    <Agent>D</Agent>
+  </TypeBonus>
+  <TypeBonus>
+    <Code>MAN</Code>
+    <Full>Mana</Full>
+    <Order>4</Order>
+    <Craft>1</Craft>
+    <Dust>2</Dust>
+    <Agent>G</Agent>
+  </TypeBonus>
+  <TypeBonus>
+    <Code>SKI</Code>
+    <Full>Skill</Full>
+    <Order>5</Order>
+    <Craft>1</Craft>
+  </TypeBonus>
+  <TypeBonus>
+    <Code>CAPS</Code>
+    <Full>Stat Cap</Full>
+    <Order>6</Order>
+    <Craft>0</Craft>
+  </TypeBonus>
+  <TypeBonus>
+    <Code>CAPMS</Code>
+    <Full>Mythical Stat Cap</Full>
+    <Order>7</Order>
+    <Craft>0</Craft>
+  </TypeBonus>
+  <TypeBonus>
+    <Code>CAPSC</Code>
+    <Full>Mythical Stat and Cap</Full>
+    <Order>8</Order>
+    <Craft>0</Craft>
+  </TypeBonus>
+  <TypeBonus>
+    <Code>CAPR</Code>
+    <Full>Mythical Resist Cap</Full>
+    <Order>9</Order>
+    <Craft>0</Craft>
+  </TypeBonus>
+  <TypeBonus>
+    <Code>CAPRC</Code>
+    <Full>Mythical Resist and Cap</Full>
+    <Order>10</Order>
+    <Craft>0</Craft>
+  </TypeBonus>
+  <TypeBonus>
+    <Code>MYTH</Code>
+    <Full>Mythical Bonus</Full>
+    <Order>11</Order>
+    <Craft>0</Craft>
+  </TypeBonus>
+  <TypeBonus>
+    <Code>OTH</Code>
+    <Full>Other Bonus</Full>
+    <Order>12</Order>
+    <Craft>0</Craft>
+  </TypeBonus>
+</TypeBonuses>

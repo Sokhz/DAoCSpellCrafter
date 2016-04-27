@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CraftMaterials>
+  <Gem>
+    <Code>LO</Code>
+    <Full>Lo Gem</Full>
+  </Gem>
+  <Gem>
+    <Code>UM</Code>
+    <Full>Um Gem</Full>
+  </Gem>
+  <Gem>
+    <Code>ON</Code>
+    <Full>On Gem</Full>
+  </Gem>
+  <Gem>
+    <Code>EE</Code>
+    <Full>Ee Gem</Full>
+  </Gem>
+  <Gem>
+    <Code>PAL</Code>
+    <Full>Pal Gem</Full>
+  </Gem>
+  <Gem>
+    <Code>MON</Code>
+    <Full>Mon Gem</Full>
+  </Gem>
+  <Gem>
+    <Code>ROS</Code>
+    <Full>Ros Gem</Full>
+  </Gem>
+  <Gem>
+    <Code>ZO</Code>
+    <Full>Zo Gem</Full>
+  </Gem>
+  <Gem>
+    <Code>KATH</Code>
+    <Full>Kath Gem</Full>
+  </Gem>
+  <Gem>
+    <Code>RA</Code>
+    <Full>Ra Gem</Full>
+  </Gem>
+  <Dust>
+    <Code>1</Code>
+    <Full>Bloodied Battlefield Dirt</Full>
+  </Dust>
+  <Dust>
+    <Code>2</Code>
+    <Full>Essence Of Life</Full>
+  </Dust>
+  <Dust>
+    <Code>3</Code>
+    <Full>Ground Draconic Scales</Full>
+  </Dust>
+  <Dust>
+    <Code>4</Code>
+    <Full>Ground Giant Bone</Full>
+  </Dust>
+  <Dust>
+    <Code>5</Code>
+    <Full>Ground Vendo Bone</Full>
+  </Dust>
+  <Dust>
+    <Code>6</Code>
+    <Full>Soot From Niflheim</Full>
+  </Dust>
+  <Dust>
+    <Code>7</Code>
+    <Full>Ground Caer Stone</Full>
+  </Dust>
+  <Dust>
+    <Code>8</Code>
+    <Full>Ground Cave Crystal</Full>
+  </Dust>
+  <Dust>
+    <Code>9</Code>
+    <Full>Ground Blessed Undead Bone</Full>
+  </Dust>
+  <Dust>
+    <Code>10</Code>
+    <Full>Fairy Dust</Full>
+  </Dust>
+  <Dust>
+    <Code>11</Code>
+    <Full>Other Worldy Dust</Full>
+  </Dust>
+  <Dust>
+    <Code>12</Code>
+    <Full>Unseelie Dust</Full>
+  </Dust>
+  <Agent>
+    <Code>A</Code>
+    <Full>Air Elemental Essence</Full>
+  </Agent>
+  <Agent>
+    <Code>B</Code>
+    <Full>Draconic Fire</Full>
+  </Agent>
+  <Agent>
+    <Code>C</Code>
+    <Full>Frost From A Wasteland</Full>
+  </Agent>
+  <Agent>
+    <Code>D</Code>
+    <Full>Giant Blood</Full>
+  </Agent>
+  <Agent>
+    <Code>E</Code>
+    <Full>Heat From An Unearthly Pyre</Full>
+  </Agent>
+  <Agent>
+    <Code>F</Code>
+    <Full>Leviathan Blood</Full>
+  </Agent>
+  <Agent>
+    <Code>G</Code>
+    <Full>Mystic Energy</Full>
+  </Agent>
+  <Agent>
+    <Code>H</Code>
+    <Full>Sun Light</Full>
+  </Agent>
+  <Agent>
+    <Code>I</Code>
+    <Full>Swamp Fog</Full>
+  </Agent>
+  <Agent>
+    <Code>J</Code>
+    <Full>Treant Blood</Full>
+  </Agent>
+  <Agent>
+    <Code>K</Code>
+    <Full>Undead Ash And Holy Water</Full>
+  </Agent>
+
+
+</CraftMaterials>

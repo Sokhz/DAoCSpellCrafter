@@ -1,0 +1,52 @@
+﻿<telerik:RadWindow x:Class="DaocSpellCraftCalculator.Views.I_DetailBonus"
+              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             Header="Bonus detail"
+             CanMove="false"      
+             ResizeMode="NoResize"
+             HideMaximizeButton="true"      
+             HideMinimizeButton="true"
+             WindowStartupLocation="CenterOwner"
+             Width="400" 
+             SizeToContent="True"
+             >
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <ItemsControl ItemsSource="{Binding LstItems}" >
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,0,0,10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding SlotFull}" />
+                                <TextBlock Text=" : " />
+                                <TextBlock Text="{Binding Name}" />
+                            </StackPanel>
+
+                            <ItemsControl ItemsSource="{Binding LstBonusDetails}" DisplayMemberPath="FullDescription" Grid.Row="1" Margin="20,0,0,0">
+
+                            </ItemsControl>
+
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+
+        <telerik:RadButton Grid.Row="2" HorizontalAlignment="Center" Command="telerik:WindowCommands.Close" Content="Close" Width="100"/>
+
+    </Grid>
+</telerik:RadWindow>
